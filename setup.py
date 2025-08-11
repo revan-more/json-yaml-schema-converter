@@ -11,15 +11,15 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="json-to-yaml-converter",
-    version="0.2.0",
+    name="json_yaml_schema_converter",
+    version="0.3.0",
     author="Revan More",
     author_email="revanmore12@gmail.com",
     description="""Convert JSON API responses to YAML schema
                 with format with properties, types, and titles""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/revan-more/json-yaml-schema-converter",
+    url="https://github.com/revan-more/json_yaml_schema_converter",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -40,14 +40,14 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "json2yaml-schema=json_yaml_schema_converter.converter:main",
+            "json2yaml_schema=json_yaml_schema_converter.cli:main",
         ],
     },
     keywords="json yaml schema converter api openapi swagger",
     project_urls={
-        "Bug Reports": "https://github.com/revan-more/json-yaml-schema-converter/issues",
-        "Source": "https://github.com/revan-more/json-yaml-schema-converter",
-        "Documentation": "https://github.com/revan-more/json-yaml-schema-converter#readme",
+        "Bug Reports": "https://github.com/revan-more/json_yaml_schema_converter/issues",
+        "Source": "https://github.com/revan-more/json_yaml_schema_converter",
+        "Documentation": "https://github.com/revan-more/json_yaml_schema_converter#readme",
     },
     include_package_data=True,
 )

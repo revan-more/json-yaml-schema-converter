@@ -12,8 +12,8 @@ A powerful Python tool that converts JSON API responses into YAML schema format 
 - ✅ **CLI Interface**: Easy-to-use command-line interface
 - ✅ **Batch Processing**: Convert multiple JSON files at once
 
-### your api response file should look like this e.g
-All json file should be `build/output` inside the folder
+## Your api response file should look like this e.g
+All json file should be `build/output` inside the folder or response would be like below
 ```json
 [
     {
@@ -45,6 +45,11 @@ All json file should be `build/output` inside the folder
         "stock_symbol": null
     },
 ]
+```
+# Command Line Interface (CLI)
+```bash
+# Use custom input folder
+json2yaml_schema --folder my_api_data_folder
 ```
 
 ## Python API Usage

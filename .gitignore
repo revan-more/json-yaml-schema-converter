@@ -4,3 +4,4 @@ pycache/
 *.py[cod]
 *$py.class
 .pytest
+*.egg-info
