@@ -53,10 +53,4 @@ from json_yaml_schema_converter import JSONToYAMLConverter
 
 # Initialize converter
 converter = JSONToYAMLConverter("path/to/json/files")
-
-# Convert all JSON files
-converted_files = converter.process_all_json_files()
-
-# Convert specific file
-success = converter.process_single_file("api_response.json")
 ```
