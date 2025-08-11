@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="json-yaml-schema-converter",
+    name="json-yaml-converter",
     version="0.1.0",
     author="Revan More",
     author_email="revanmore12@gmail.com",

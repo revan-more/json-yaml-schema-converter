@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: json-yaml-schema-converter
+Version: 0.1.0
+Summary: Convert JSON API responses to YAML schema format with properties, types, and titles
+Home-page: https://github.com/revan-more/json-yaml-schema-converter
+Author: Revan More
+Author-email: revanmore <revanmore12@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/revan-more/json-yaml-schema-converter
+Project-URL: Bug Reports, https://github.com/revan-more/json-yaml-schema-converter/issues
+Project-URL: Source Code, https://github.com/revan-more/json-yaml-schema-converter
+Keywords: json,yaml,schema,converter,api,openapi,swagger
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML>=6.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# JSON to YAML Schema Converter
+
+A powerful Python tool that converts JSON API responses into YAML schema format with proper type definitions, titles, and format specifications.
+
+## Features
+
+- ✅ **Smart Type Detection**: Automatically detects and maps JSON types to schema types
+- ✅ **Date-Time Recognition**: Identifies datetime strings and adds `format: date-time`
+- ✅ **Nested Object Support**: Handles complex nested JSON structures
+- ✅ **Array Processing**: Properly processes arrays and their item types
+- ✅ **Title Generation**: Creates human-readable titles from JSON keys
+- ✅ **CLI Interface**: Easy-to-use command-line interface
+- ✅ **Batch Processing**: Convert multiple JSON files at once
+
+### your api response file should look like this e.g
+All json file should be `build/output` inside the folder
+```json
+[
+    {
+        "id": 12345,
+        "name": "test Innovations Corp",
+        "legal_name": "Tech Innovations Corporation Inc.",
+        "founded_date": "2020-01-15",
+        "incorporation_date": "2020-01-15T09:00:00Z",
+        "tax_id": "12-3456789",
+        "website": "https://testinnovations.com",
+        "industry": "Software Technology",
+        "employee_count": 250,
+        "annual_revenue": 15000000.75,
+        "is_public": true,
+        "stock_symbol": null
+    },
+    {
+        "id": 4565,
+        "name": "demo Innovations Corp",
+        "legal_name": "demo Innovations Corporation Inc.",
+        "founded_date": "2020-01-15",
+        "incorporation_date": "2020-01-15T09:00:00Z",
+        "tax_id": "12-3456789",
+        "website": "https://testinnovations.com",
+        "industry": "Software Technology",
+        "employee_count": 250,
+        "annual_revenue": 15000000.75,
+        "is_public": true,
+        "stock_symbol": null
+    },
+]
+```
+
+## Python API Usage
+```python
+from json_yaml_schema_converter import JSONToYAMLConverter
+
+# Initialize converter
+converter = JSONToYAMLConverter("path/to/json/files")
+
+# Convert all JSON files
+converted_files = converter.process_all_json_files()
+
+# Convert specific file
+success = converter.process_single_file("api_response.json")
+```
