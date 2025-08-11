@@ -5,5 +5,5 @@ pycache/
 *$py.class
 .pytest
 *.egg-info
-build
-dist
+build/
+dist/
