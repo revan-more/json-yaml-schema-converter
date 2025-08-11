@@ -11,8 +11,8 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="json-yaml-converter",
-    version="0.1.0",
+    name="json-to-yaml-converter",
+    version="0.2.0",
     author="Revan More",
     author_email="revanmore12@gmail.com",
     description="""Convert JSON API responses to YAML schema
@@ -40,7 +40,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "json2yaml-schema=json_yaml_schema_converter.cli:main",
+            "json2yaml-schema=json_yaml_schema_converter.converter:main",
         ],
     },
     keywords="json yaml schema converter api openapi swagger",

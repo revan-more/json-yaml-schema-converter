@@ -426,3 +426,6 @@ def main():
     else:
         logger.info("\n❌ No files were processed successfully")
 
+
+if __name__ == "__main__":
+    main()

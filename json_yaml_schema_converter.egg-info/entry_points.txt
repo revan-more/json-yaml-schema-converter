@@ -1,2 +1,2 @@
 [console_scripts]
-json2yaml-schema = json_yaml_schema_converter.cli:main
+json2yaml-schema-converter = json_yaml_schema_converter.converter:main

@@ -6,6 +6,7 @@ pyproject.toml
 requirements.txt
 setup.cfg
 setup.py
+.github/workflows/python-publish.yml
 json-yaml-schema-converter/__init__.py
 json-yaml-schema-converter/converter.py
 json_yaml_schema_converter.egg-info/PKG-INFO
