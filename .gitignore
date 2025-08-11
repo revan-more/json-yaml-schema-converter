@@ -6,4 +6,5 @@ pycache/
 .pytest
 *.egg-info
 build/
-dist/
+build/lib
+dist/*
