@@ -54,7 +54,7 @@ json2yaml_schema --folder my_api_data_folder
 
 ## Python API Usage
 ```python
-from json_yaml_schema_converter import JSONToYAMLConverter
+from json_yaml_schema import JSONToYAMLConverter
 
 # Initialize converter
 converter = JSONToYAMLConverter("path/to/json/files")
@@ -62,3 +62,39 @@ converter = JSONToYAMLConverter("path/to/json/files")
 # Convert all JSON files
 converted_files = converter.process_all_json_files()
 ```
+
+## MCP Server Integration (Copilot / Claude Desktop)
+
+This package includes a Model Context Protocol (MCP) server, allowing AI assistants like GitHub Copilot or Claude Desktop to automatically use this schema converter.
+
+**Prerequisites:** You must have **Python 3.10 or higher** installed.
+
+### 1. Install with MCP Support
+Create a virtual environment with Python 3.10+ and install the package:
+```bash
+python3.10 -m venv mcp_env
+source mcp_env/bin/activate
+pip install -e .
+```
+
+### 2. Configure Copilot / Claude Desktop
+Add the MCP server to your AI assistant's configuration file (e.g., `github-copilot.json`, `claude_desktop_config.json`, or via the UI settings for custom MCP servers).
+
+```json
+{
+  "mcpServers": {
+    "json-yaml-schema-converter": {
+      "command": "/absolute/path/to/your/mcp_env/bin/json2yaml-mcp-server",
+      "args": []
+    }
+  }
+}
+```
+
+*Note: Replace `/absolute/path/to/your/mcp_env/bin/json2yaml-mcp-server` with the actual absolute path to where you installed the environment.*
+
+### 3. Usage
+Once configured, you can simply ask your AI assistant:
+> "create a json yaml file for all the json files in the output folder/ your folder name"
+
+The AI will automatically invoke the `convert_json_to_yaml_schema` tool and process your JSON files.
