@@ -241,13 +241,24 @@ class JSONToYAMLConverter:
 
     def __init__(self, sample_data_folder: str = "build/output"):
         self.sample_data_folder = Path(sample_data_folder)
+
+        # Validate that the input folder exists — don't silently create it
+        if not self.sample_data_folder.exists():
+            raise FileNotFoundError(
+                f"Input folder not found: '{self.sample_data_folder}'. "
+                f"Please provide a valid path to a folder containing JSON files."
+            )
+        if not self.sample_data_folder.is_dir():
+            raise NotADirectoryError(
+                f"'{self.sample_data_folder}' is not a directory."
+            )
+
         self.output_folder = self.sample_data_folder / "yaml_output"
         if not self.output_folder.exists():
-            self.ensure_directories()
+            self.ensure_output_directory()
 
-    def ensure_directories(self):
-        """Create necessary directories if they don't exist"""
-        self.sample_data_folder.mkdir(exist_ok=True)
+    def ensure_output_directory(self):
+        """Create the output directory if it doesn't exist"""
         self.output_folder.mkdir(exist_ok=True)
 
     def convert_to_yaml(self, data: Dict[Any, Any], output_path: Path) -> bool:

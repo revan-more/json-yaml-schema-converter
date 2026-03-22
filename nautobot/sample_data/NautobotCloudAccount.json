@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ce51a726-b1b0-5983-8761-eaaca5492056",
+    "object_type": "cloud.cloudaccount",
+    "display": "Amazon AWS: AWS - NONPROD - 2101981000",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/ce51a726-b1b0-5983-8761-eaaca5492056/",
+    "natural_slug": "aws-nonprod_ce51",
+    "name": "AWS - NONPROD",
+    "description": "TEST account for all test services in Amazon AWS Cloud",
+    "account_number": "2101981000",
+    "provider": {
+      "id": "5889abe9-fcdc-5898-9307-7d1147f9a3f1",
+      "object_type": "dcim.manufacturer",
+      "url": "https://next.demo.nautobot.com/api/dcim/manufacturers/5889abe9-fcdc-5898-9307-7d1147f9a3f1/",
+      "name": "Amazon AWS"
+    },
+    "secrets_group": {
+      "id": "b44101c3-8cda-5c55-95d3-a124bc45b82e",
+      "object_type": "extras.secretsgroup",
+      "url": "https://next.demo.nautobot.com/api/extras/secrets-groups/b44101c3-8cda-5c55-95d3-a124bc45b82e/"
+    },
+    "created": "2025-12-17T18:24:40.525444Z",
+    "last_updated": "2025-12-17T18:24:40.525458Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/ce51a726-b1b0-5983-8761-eaaca5492056/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "89ebfe03-ae64-56ef-9a40-5f64d4b7da03",
+    "object_type": "cloud.cloudaccount",
+    "display": "Amazon AWS: AWS - PROD - 1801981919",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/",
+    "natural_slug": "aws-prod_89eb",
+    "name": "AWS - PROD",
+    "description": "PROD account for all production services in Amazon AWS Cloud",
+    "account_number": "1801981919",
+    "provider": {
+      "id": "5889abe9-fcdc-5898-9307-7d1147f9a3f1",
+      "object_type": "dcim.manufacturer",
+      "url": "https://next.demo.nautobot.com/api/dcim/manufacturers/5889abe9-fcdc-5898-9307-7d1147f9a3f1/",
+      "name": "Amazon AWS"
+    },
+    "secrets_group": {
+      "id": "b44101c3-8cda-5c55-95d3-a124bc45b82e",
+      "object_type": "extras.secretsgroup",
+      "url": "https://next.demo.nautobot.com/api/extras/secrets-groups/b44101c3-8cda-5c55-95d3-a124bc45b82e/"
+    },
+    "created": "2025-12-17T18:24:40.498671Z",
+    "last_updated": "2025-12-17T18:24:40.498684Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "7a077d2a-1351-5dde-92d9-3d3fb8f51c6e",
+    "object_type": "cloud.cloudaccount",
+    "display": "Microsoft Azure: Azure - PROD Chatbot - CHT-MSAZR_919181",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/7a077d2a-1351-5dde-92d9-3d3fb8f51c6e/",
+    "natural_slug": "azure-prod-chatbot_7a07",
+    "name": "Azure - PROD Chatbot",
+    "description": "Chatbot account in Azure",
+    "account_number": "CHT-MSAZR_919181",
+    "provider": {
+      "id": "e10389a2-229c-52f1-9d5f-ef3d4dd98874",
+      "object_type": "dcim.manufacturer",
+      "url": "https://next.demo.nautobot.com/api/dcim/manufacturers/e10389a2-229c-52f1-9d5f-ef3d4dd98874/",
+      "name": "Microsoft Azure"
+    },
+    "secrets_group": {
+      "id": "391e7882-1704-5426-9e54-404a5cbab8b2",
+      "object_type": "extras.secretsgroup",
+      "url": "https://next.demo.nautobot.com/api/extras/secrets-groups/391e7882-1704-5426-9e54-404a5cbab8b2/"
+    },
+    "created": "2025-12-17T18:24:40.546606Z",
+    "last_updated": "2025-12-17T18:24:40.546619Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/7a077d2a-1351-5dde-92d9-3d3fb8f51c6e/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "359425e8-8495-5f67-89e4-6e1090453216",
+    "object_type": "cloud.cloudaccount",
+    "display": "Google GCP: GCP - Test GKS - GKS-GCP_871091",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/359425e8-8495-5f67-89e4-6e1090453216/",
+    "natural_slug": "gcp-test-gks_3594",
+    "name": "GCP - Test GKS",
+    "description": "Testing GKS deployment",
+    "account_number": "GKS-GCP_871091",
+    "provider": {
+      "id": "099414b6-2113-5a39-a5cd-5979a2309dc7",
+      "object_type": "dcim.manufacturer",
+      "url": "https://next.demo.nautobot.com/api/dcim/manufacturers/099414b6-2113-5a39-a5cd-5979a2309dc7/",
+      "name": "Google GCP"
+    },
+    "secrets_group": {
+      "id": "d3e349b7-6e6b-5ef1-8dd6-f4a6236527b7",
+      "object_type": "extras.secretsgroup",
+      "url": "https://next.demo.nautobot.com/api/extras/secrets-groups/d3e349b7-6e6b-5ef1-8dd6-f4a6236527b7/"
+    },
+    "created": "2025-12-17T18:24:40.566805Z",
+    "last_updated": "2025-12-17T18:24:40.566816Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/359425e8-8495-5f67-89e4-6e1090453216/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  }
+]

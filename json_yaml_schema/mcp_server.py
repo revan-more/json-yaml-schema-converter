@@ -26,13 +26,12 @@ def json_to_yaml(folder_path: str) -> str:
         folder_path: Path to the folder containing the JSON files (must be provided by the user)
     """
     try:
-        converter = JSONToYAMLConverter(sample_data_folder=folder_path)
-
-        # Check if the folder exists
+        # Validate the folder before creating the converter
         folder = Path(folder_path)
         if not folder.exists() or not folder.is_dir():
             return f"Error: The input folder '{folder_path}' does not exist or is not a directory."
 
+        converter = JSONToYAMLConverter(sample_data_folder=folder_path)
         processed_files = converter.process_all_json_files()
 
         if processed_files:

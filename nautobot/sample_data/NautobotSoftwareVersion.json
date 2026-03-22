@@ -1,0 +1,66 @@
+[
+  {
+    "id": "6d4b73fb-38da-523c-84fd-5109163231c9",
+    "object_type": "dcim.softwareversion",
+    "display": "IOS - Dublin",
+    "url": "https://next.demo.nautobot.com/api/dcim/software-versions/6d4b73fb-38da-523c-84fd-5109163231c9/",
+    "natural_slug": "cisco-ios_17-12-3_6d4b",
+    "version": "17.12.3",
+    "alias": "IOS - Dublin",
+    "release_date": "2024-03-21",
+    "end_of_support_date": "2026-03-21",
+    "documentation_url": "https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-12/isr4k-rel-notes-xe-17-12.html",
+    "long_term_support": false,
+    "pre_release": false,
+    "platform": {
+      "id": "dd6fd4c1-1bc3-5af4-af27-41bc2dea1fbe",
+      "object_type": "dcim.platform",
+      "url": "https://next.demo.nautobot.com/api/dcim/platforms/dd6fd4c1-1bc3-5af4-af27-41bc2dea1fbe/",
+      "name": "Cisco IOS"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "created": "2025-12-17T17:23:05.548736Z",
+    "last_updated": "2025-12-17T18:23:31.450137Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/software-versions/6d4b73fb-38da-523c-84fd-5109163231c9/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "f054d40d-4751-54aa-90c3-61de73867d10",
+    "object_type": "dcim.softwareversion",
+    "display": "IOS - Cupertino",
+    "url": "https://next.demo.nautobot.com/api/dcim/software-versions/f054d40d-4751-54aa-90c3-61de73867d10/",
+    "natural_slug": "cisco-ios_17-9-5a_f054",
+    "version": "17.9.5a",
+    "alias": "IOS - Cupertino",
+    "release_date": "2024-02-28",
+    "end_of_support_date": "2026-02-28",
+    "documentation_url": "https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-9/isr4k-rel-notes-xe-17-9.html",
+    "long_term_support": false,
+    "pre_release": false,
+    "platform": {
+      "id": "dd6fd4c1-1bc3-5af4-af27-41bc2dea1fbe",
+      "object_type": "dcim.platform",
+      "url": "https://next.demo.nautobot.com/api/dcim/platforms/dd6fd4c1-1bc3-5af4-af27-41bc2dea1fbe/",
+      "name": "Cisco IOS"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "created": "2025-12-17T17:23:05.749018Z",
+    "last_updated": "2025-12-17T18:23:31.517444Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/software-versions/f054d40d-4751-54aa-90c3-61de73867d10/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  }
+]

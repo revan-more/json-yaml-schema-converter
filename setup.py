@@ -12,7 +12,7 @@ with open(os.path.join(this_directory, "requirements.txt")) as f:
 
 setup(
     name="json_yaml_schema",
-    version="0.1.0",
+    version="0.2.0",
     author="Revan More",
     author_email="[EMAIL_ADDRESS]",
     description="""Convert JSON API responses to YAML schema

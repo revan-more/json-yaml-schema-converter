@@ -1,0 +1,3778 @@
+[
+  {
+    "id": "924ddcb0-ea26-49c6-a747-261fcd3b779e",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.0.1/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/924ddcb0-ea26-49c6-a747-261fcd3b779e/",
+    "natural_slug": "global_10-0-0-1_924d",
+    "address": "10.0.0.1/32",
+    "host": "10.0.0.1",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4e6c8bda-05c9-5970-9c4c-b054892bad81",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4e6c8bda-05c9-5970-9c4c-b054892bad81/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:27:09.274673Z",
+    "last_updated": "2025-12-17T18:27:09.274689Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/924ddcb0-ea26-49c6-a747-261fcd3b779e/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d469de32-eb32-4422-b650-2cc819217534",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.0.100/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d469de32-eb32-4422-b650-2cc819217534/",
+    "natural_slug": "global_10-0-0-100_d469",
+    "address": "10.0.0.100/32",
+    "host": "10.0.0.100",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "24b72b89-731e-529e-b9b9-d865b5df1ddb",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/24b72b89-731e-529e-b9b9-d865b5df1ddb/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:27:11.296017Z",
+    "last_updated": "2025-12-17T18:27:11.296034Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d469de32-eb32-4422-b650-2cc819217534/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d4f64340-ca1c-5426-b540-d9ed34efca31",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.1/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d4f64340-ca1c-5426-b540-d9ed34efca31/",
+    "natural_slug": "network-to-code_10-0-10-1_d4f6",
+    "address": "10.0.10.1/32",
+    "host": "10.0.10.1",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "2858ca92-f980-598b-a5b5-a8bd1cdf5c80",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/2858ca92-f980-598b-a5b5-a8bd1cdf5c80/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:33.181744Z",
+    "last_updated": "2025-12-17T18:25:33.181763Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d4f64340-ca1c-5426-b540-d9ed34efca31/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "1bafe700-e706-59aa-ad1f-343e50b0e06b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.2/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1bafe700-e706-59aa-ad1f-343e50b0e06b/",
+    "natural_slug": "network-to-code_10-0-10-2_1baf",
+    "address": "10.0.10.2/32",
+    "host": "10.0.10.2",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "6c3feb0d-e7ff-5f49-bdf8-d9a56331e8a4",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/6c3feb0d-e7ff-5f49-bdf8-d9a56331e8a4/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:34.422077Z",
+    "last_updated": "2025-12-17T18:25:34.422093Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1bafe700-e706-59aa-ad1f-343e50b0e06b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "3cdcabb8-5eba-5fa1-9b40-c5ae0662fa47",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.3/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3cdcabb8-5eba-5fa1-9b40-c5ae0662fa47/",
+    "natural_slug": "network-to-code_10-0-10-3_3cdc",
+    "address": "10.0.10.3/32",
+    "host": "10.0.10.3",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-bb-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "953b9966-7c9a-55ce-8338-aa5261e7d178",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/953b9966-7c9a-55ce-8338-aa5261e7d178/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:31.859131Z",
+    "last_updated": "2025-12-17T18:25:31.859148Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3cdcabb8-5eba-5fa1-9b40-c5ae0662fa47/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9091ead8-118f-5d6b-9d87-957257a57aa3",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.4/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9091ead8-118f-5d6b-9d87-957257a57aa3/",
+    "natural_slug": "network-to-code_10-0-10-4_9091",
+    "address": "10.0.10.4/32",
+    "host": "10.0.10.4",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "596eeb93-5908-5c67-ab1b-92a135096291",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/596eeb93-5908-5c67-ab1b-92a135096291/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:39.540001Z",
+    "last_updated": "2025-12-17T18:25:39.540017Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9091ead8-118f-5d6b-9d87-957257a57aa3/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "4a18ebf2-4104-5bae-89d4-6544ce6ff833",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.5/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4a18ebf2-4104-5bae-89d4-6544ce6ff833/",
+    "natural_slug": "network-to-code_10-0-10-5_4a18",
+    "address": "10.0.10.5/32",
+    "host": "10.0.10.5",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "6c7f21af-c8ed-5181-b68c-6cfbacfe66a7",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/6c7f21af-c8ed-5181-b68c-6cfbacfe66a7/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:44.356611Z",
+    "last_updated": "2025-12-17T18:25:44.356627Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4a18ebf2-4104-5bae-89d4-6544ce6ff833/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f50ac90c-d330-53f4-b71e-6822d432c8cd",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.6/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f50ac90c-d330-53f4-b71e-6822d432c8cd/",
+    "natural_slug": "network-to-code_10-0-10-6_f50a",
+    "address": "10.0.10.6/32",
+    "host": "10.0.10.6",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "f5ca60dd-5879-5ac5-a635-314952c390d6",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/f5ca60dd-5879-5ac5-a635-314952c390d6/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:49.084631Z",
+    "last_updated": "2025-12-17T18:25:49.084649Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f50ac90c-d330-53f4-b71e-6822d432c8cd/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "7dc23c94-da84-5e30-8bb5-ae3f2d426d14",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.10.7/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/7dc23c94-da84-5e30-8bb5-ae3f2d426d14/",
+    "natural_slug": "network-to-code_10-0-10-7_7dc2",
+    "address": "10.0.10.7/32",
+    "host": "10.0.10.7",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "1361d7da-78d5-5a6a-b492-31c39f74244d",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/1361d7da-78d5-5a6a-b492-31c39f74244d/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:52.963924Z",
+    "last_updated": "2025-12-17T18:25:52.963940Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/7dc23c94-da84-5e30-8bb5-ae3f2d426d14/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "2ca9700a-e364-599e-b1f2-d5c48d8f1185",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.1/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2ca9700a-e364-599e-b1f2-d5c48d8f1185/",
+    "natural_slug": "network-to-code_10-0-20-1_2ca9",
+    "address": "10.0.20.1/32",
+    "host": "10.0.20.1",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "81660f43-0057-5e2d-ab78-f64cca539ba4",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/81660f43-0057-5e2d-ab78-f64cca539ba4/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:11.430471Z",
+    "last_updated": "2025-12-17T18:25:11.430488Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2ca9700a-e364-599e-b1f2-d5c48d8f1185/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "39265934-07b6-5e1b-851d-924b79297177",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.2/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/39265934-07b6-5e1b-851d-924b79297177/",
+    "natural_slug": "network-to-code_10-0-20-2_3926",
+    "address": "10.0.20.2/32",
+    "host": "10.0.20.2",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "f1ad1285-9e00-5f77-848b-ec81fd60fa85",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/f1ad1285-9e00-5f77-848b-ec81fd60fa85/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:13.197607Z",
+    "last_updated": "2025-12-17T18:25:13.197622Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/39265934-07b6-5e1b-851d-924b79297177/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "4619ae55-6520-51ad-b0da-baa543b86677",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.3/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4619ae55-6520-51ad-b0da-baa543b86677/",
+    "natural_slug": "network-to-code_10-0-20-3_4619",
+    "address": "10.0.20.3/32",
+    "host": "10.0.20.3",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-bb-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "b35c7f71-659f-54e7-ba50-a314ede8b9ea",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/b35c7f71-659f-54e7-ba50-a314ede8b9ea/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:09.738399Z",
+    "last_updated": "2025-12-17T18:25:09.738415Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4619ae55-6520-51ad-b0da-baa543b86677/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "b1782086-ac80-5039-97e1-abd5d9ce62a1",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.4/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b1782086-ac80-5039-97e1-abd5d9ce62a1/",
+    "natural_slug": "network-to-code_10-0-20-4_b178",
+    "address": "10.0.20.4/32",
+    "host": "10.0.20.4",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "43cc24b9-e3be-56c2-8919-2d0a9c03a14a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/43cc24b9-e3be-56c2-8919-2d0a9c03a14a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:16.169937Z",
+    "last_updated": "2025-12-17T18:25:16.169955Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b1782086-ac80-5039-97e1-abd5d9ce62a1/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a0141b4a-4964-59a2-8a29-be1b61c3f4a5",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.5/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a0141b4a-4964-59a2-8a29-be1b61c3f4a5/",
+    "natural_slug": "network-to-code_10-0-20-5_a014",
+    "address": "10.0.20.5/32",
+    "host": "10.0.20.5",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "803ff062-c1dc-5d9f-8342-5eba6349c607",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/803ff062-c1dc-5d9f-8342-5eba6349c607/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:19.012150Z",
+    "last_updated": "2025-12-17T18:25:19.012162Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a0141b4a-4964-59a2-8a29-be1b61c3f4a5/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "e7594beb-d1fa-50f9-ac89-3d52e5ecc0ee",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.6/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e7594beb-d1fa-50f9-ac89-3d52e5ecc0ee/",
+    "natural_slug": "network-to-code_10-0-20-6_e759",
+    "address": "10.0.20.6/32",
+    "host": "10.0.20.6",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "887f29e3-5f46-52f1-b498-2b56597526af",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/887f29e3-5f46-52f1-b498-2b56597526af/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:21.220457Z",
+    "last_updated": "2025-12-17T18:25:21.220468Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e7594beb-d1fa-50f9-ac89-3d52e5ecc0ee/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "eeb51e79-84c3-5d94-bd5b-ab448bba8eda",
+    "object_type": "ipam.ipaddress",
+    "display": "10.0.20.7/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/eeb51e79-84c3-5d94-bd5b-ab448bba8eda/",
+    "natural_slug": "network-to-code_10-0-20-7_eeb5",
+    "address": "10.0.20.7/32",
+    "host": "10.0.20.7",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "828b94a6-2fdf-5fd6-8143-54cdabe3efd5",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/828b94a6-2fdf-5fd6-8143-54cdabe3efd5/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:23.464735Z",
+    "last_updated": "2025-12-17T18:25:23.464749Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/eeb51e79-84c3-5d94-bd5b-ab448bba8eda/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "2cd4b38b-62c4-587a-9239-589a9978b137",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.5/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2cd4b38b-62c4-587a-9239-589a9978b137/",
+    "natural_slug": "network-to-code_10-10-0-5_2cd4",
+    "address": "10.10.0.5/30",
+    "host": "10.10.0.5",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-01-Gi2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "132c87c4-9fb2-5691-9c63-172abb9092bb",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/132c87c4-9fb2-5691-9c63-172abb9092bb/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:32.820964Z",
+    "last_updated": "2025-12-17T18:25:32.820980Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2cd4b38b-62c4-587a-9239-589a9978b137/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "bc45fb34-8b6d-548a-a452-b851b2560084",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.6/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bc45fb34-8b6d-548a-a452-b851b2560084/",
+    "natural_slug": "network-to-code_10-10-0-6_bc45",
+    "address": "10.10.0.6/30",
+    "host": "10.10.0.6",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-bb-01-Gi2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0617a2ff-cfac-58d4-bc2a-433a83c2f998",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0617a2ff-cfac-58d4-bc2a-433a83c2f998/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:31.489506Z",
+    "last_updated": "2025-12-17T18:25:31.489523Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bc45fb34-8b6d-548a-a452-b851b2560084/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f699469c-349d-5a84-ba1c-ae5b42cf2e72",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.9/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f699469c-349d-5a84-ba1c-ae5b42cf2e72/",
+    "natural_slug": "network-to-code_10-10-0-9_f699",
+    "address": "10.10.0.9/30",
+    "host": "10.10.0.9",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-01-Gi4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "33edb3c0-8a46-5a84-8afd-18998eb492ff",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/33edb3c0-8a46-5a84-8afd-18998eb492ff/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:32.952061Z",
+    "last_updated": "2025-12-17T18:25:32.952077Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f699469c-349d-5a84-ba1c-ae5b42cf2e72/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "5ee0bdb1-7fc2-5cef-88d7-926286e51c25",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.10/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/5ee0bdb1-7fc2-5cef-88d7-926286e51c25/",
+    "natural_slug": "network-to-code_10-10-0-10_5ee0",
+    "address": "10.10.0.10/30",
+    "host": "10.10.0.10",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-02-Gi4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "f3ba90b4-4695-5dab-816c-8ec536406e31",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/f3ba90b4-4695-5dab-816c-8ec536406e31/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:34.179991Z",
+    "last_updated": "2025-12-17T18:25:34.180009Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/5ee0bdb1-7fc2-5cef-88d7-926286e51c25/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "782336fa-0434-52e6-b4fc-fb10e8aa6f33",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.14/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/782336fa-0434-52e6-b4fc-fb10e8aa6f33/",
+    "natural_slug": "network-to-code_10-10-0-14_7823",
+    "address": "10.10.0.14/30",
+    "host": "10.10.0.14",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-bb-01-Gi3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "fa8baa47-5410-5111-b54e-2a919431f0ee",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/fa8baa47-5410-5111-b54e-2a919431f0ee/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:31.604003Z",
+    "last_updated": "2025-12-17T18:25:31.604020Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/782336fa-0434-52e6-b4fc-fb10e8aa6f33/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "1b24b7ca-cd45-5396-925d-8264e175c930",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.17/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1b24b7ca-cd45-5396-925d-8264e175c930/",
+    "natural_slug": "network-to-code_10-10-0-17_1b24",
+    "address": "10.10.0.17/30",
+    "host": "10.10.0.17",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-bb-01-Gi4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e34391cc-b322-5f01-85d6-c98c68611674",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e34391cc-b322-5f01-85d6-c98c68611674/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:31.714564Z",
+    "last_updated": "2025-12-17T18:25:31.714581Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1b24b7ca-cd45-5396-925d-8264e175c930/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9bd613d4-ff0d-51fe-b5e9-aa9d44496a13",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.18/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9bd613d4-ff0d-51fe-b5e9-aa9d44496a13/",
+    "natural_slug": "network-to-code_10-10-0-18_9bd6",
+    "address": "10.10.0.18/30",
+    "host": "10.10.0.18",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-bb-01-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "52738613-1e3d-59ac-b2e2-c2b07b25ad5f",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/52738613-1e3d-59ac-b2e2-c2b07b25ad5f/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:09.616411Z",
+    "last_updated": "2025-12-17T18:25:09.616428Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9bd613d4-ff0d-51fe-b5e9-aa9d44496a13/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a07f5b83-6167-540c-902a-d47588119908",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.21/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a07f5b83-6167-540c-902a-d47588119908/",
+    "natural_slug": "network-to-code_10-10-0-21_a07f",
+    "address": "10.10.0.21/30",
+    "host": "10.10.0.21",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-01-ge-0_0_0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "8db4799c-04dd-5d65-b611-e441003b9e3a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/8db4799c-04dd-5d65-b611-e441003b9e3a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:11.055114Z",
+    "last_updated": "2025-12-17T18:25:11.055130Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a07f5b83-6167-540c-902a-d47588119908/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "b1498454-55aa-510a-928e-719079d3ad82",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.22/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b1498454-55aa-510a-928e-719079d3ad82/",
+    "natural_slug": "network-to-code_10-10-0-22_b149",
+    "address": "10.10.0.22/30",
+    "host": "10.10.0.22",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-bb-01-ge-0_0_0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "14233e47-c420-5efb-b397-4efd52fe4dfe",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/14233e47-c420-5efb-b397-4efd52fe4dfe/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:09.253624Z",
+    "last_updated": "2025-12-17T18:25:09.253640Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b1498454-55aa-510a-928e-719079d3ad82/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d2229118-46df-5e76-8b97-e52291554433",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.25/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d2229118-46df-5e76-8b97-e52291554433/",
+    "natural_slug": "network-to-code_10-10-0-25_d222",
+    "address": "10.10.0.25/30",
+    "host": "10.10.0.25",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-01-ge-0_0_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "860bd619-48bc-5293-88ab-56a68ca04e55",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/860bd619-48bc-5293-88ab-56a68ca04e55/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:11.176553Z",
+    "last_updated": "2025-12-17T18:25:11.176568Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d2229118-46df-5e76-8b97-e52291554433/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "bd59f308-cc68-58e7-a3e9-8d0e3248ccfc",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.26/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bd59f308-cc68-58e7-a3e9-8d0e3248ccfc/",
+    "natural_slug": "network-to-code_10-10-0-26_bd59",
+    "address": "10.10.0.26/30",
+    "host": "10.10.0.26",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-02-ge-0_0_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "6723d3d8-f69c-57ba-be30-a4b4380a57f5",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/6723d3d8-f69c-57ba-be30-a4b4380a57f5/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:12.959555Z",
+    "last_updated": "2025-12-17T18:25:12.959572Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bd59f308-cc68-58e7-a3e9-8d0e3248ccfc/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "cff48b58-854b-593f-baf4-5df15c7bd368",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.29/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cff48b58-854b-593f-baf4-5df15c7bd368/",
+    "natural_slug": "network-to-code_10-10-0-29_cff4",
+    "address": "10.10.0.29/30",
+    "host": "10.10.0.29",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-02-ge-0_0_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "f359772a-5346-5603-9894-df0d2c0d1251",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/f359772a-5346-5603-9894-df0d2c0d1251/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:12.838523Z",
+    "last_updated": "2025-12-17T18:25:12.838539Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cff48b58-854b-593f-baf4-5df15c7bd368/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "c1a9deda-05b4-5cbb-b290-c25a4e375f18",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.0.30/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c1a9deda-05b4-5cbb-b290-c25a4e375f18/",
+    "natural_slug": "network-to-code_10-10-0-30_c1a9",
+    "address": "10.10.0.30/30",
+    "host": "10.10.0.30",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-bb-01-ge-0_0_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "7becd7fd-83c9-5ea2-88c5-295c5c41c77d",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/7becd7fd-83c9-5ea2-88c5-295c5c41c77d/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:09.441190Z",
+    "last_updated": "2025-12-17T18:25:09.441205Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c1a9deda-05b4-5cbb-b290-c25a4e375f18/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "6c9c7e39-a8ef-508d-b884-0c482d97828d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.5/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/6c9c7e39-a8ef-508d-b884-0c482d97828d/",
+    "natural_slug": "network-to-code_10-10-10-5_6c9c",
+    "address": "10.10.10.5/30",
+    "host": "10.10.10.5",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "c57235d2-d062-5bff-a402-b590bb99e330",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/c57235d2-d062-5bff-a402-b590bb99e330/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:38.709687Z",
+    "last_updated": "2025-12-17T18:25:38.709702Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/6c9c7e39-a8ef-508d-b884-0c482d97828d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f32fc103-046f-5b63-b658-0101cf27ef14",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.6/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f32fc103-046f-5b63-b658-0101cf27ef14/",
+    "natural_slug": "network-to-code_10-10-10-6_f32f",
+    "address": "10.10.10.6/30",
+    "host": "10.10.10.6",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "40966b12-0322-5114-83d6-efd07f0b9b91",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/40966b12-0322-5114-83d6-efd07f0b9b91/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:43.477225Z",
+    "last_updated": "2025-12-17T18:25:43.477240Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f32fc103-046f-5b63-b658-0101cf27ef14/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "eed8a77f-2995-5fd4-97e5-52df7c519827",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.9/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/eed8a77f-2995-5fd4-97e5-52df7c519827/",
+    "natural_slug": "network-to-code_10-10-10-9_eed8",
+    "address": "10.10.10.9/30",
+    "host": "10.10.10.9",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "47e2fa42-f0df-500c-a9c1-2f8d58ec6cf2",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/47e2fa42-f0df-500c-a9c1-2f8d58ec6cf2/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:38.834475Z",
+    "last_updated": "2025-12-17T18:25:38.834490Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/eed8a77f-2995-5fd4-97e5-52df7c519827/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "c4ddcf26-ff58-5b4a-a288-1d3fc1ab55fc",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.10/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c4ddcf26-ff58-5b4a-a288-1d3fc1ab55fc/",
+    "natural_slug": "network-to-code_10-10-10-10_c4dd",
+    "address": "10.10.10.10/30",
+    "host": "10.10.10.10",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "c93964ee-7314-57c7-9c24-8c4771dc379b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/c93964ee-7314-57c7-9c24-8c4771dc379b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:43.588448Z",
+    "last_updated": "2025-12-17T18:25:43.588463Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c4ddcf26-ff58-5b4a-a288-1d3fc1ab55fc/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "bced7af2-5421-5078-9093-b83c06026f20",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.13/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bced7af2-5421-5078-9093-b83c06026f20/",
+    "natural_slug": "network-to-code_10-10-10-13_bced",
+    "address": "10.10.10.13/30",
+    "host": "10.10.10.13",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "3ee84200-db56-5f70-bb07-9595d227ca31",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/3ee84200-db56-5f70-bb07-9595d227ca31/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:39.026184Z",
+    "last_updated": "2025-12-17T18:25:39.026201Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bced7af2-5421-5078-9093-b83c06026f20/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "3b520298-dcd3-5f75-b8b9-5ee15c57a9cd",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.14/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3b520298-dcd3-5f75-b8b9-5ee15c57a9cd/",
+    "natural_slug": "network-to-code_10-10-10-14_3b52",
+    "address": "10.10.10.14/30",
+    "host": "10.10.10.14",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "a3334c04-88d5-533e-a4d1-24a7fa6a549b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/a3334c04-88d5-533e-a4d1-24a7fa6a549b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:43.701252Z",
+    "last_updated": "2025-12-17T18:25:43.701270Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3b520298-dcd3-5f75-b8b9-5ee15c57a9cd/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "dcf6a03e-c8b7-58e8-8846-e4cccef15817",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.17/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/dcf6a03e-c8b7-58e8-8846-e4cccef15817/",
+    "natural_slug": "network-to-code_10-10-10-17_dcf6",
+    "address": "10.10.10.17/30",
+    "host": "10.10.10.17",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "c1180a77-9356-5e54-b6e8-c5e2c154fe65",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/c1180a77-9356-5e54-b6e8-c5e2c154fe65/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:39.159276Z",
+    "last_updated": "2025-12-17T18:25:39.159292Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/dcf6a03e-c8b7-58e8-8846-e4cccef15817/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a7e39199-ebcc-5445-b155-912985e95aeb",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.10.18/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a7e39199-ebcc-5445-b155-912985e95aeb/",
+    "natural_slug": "network-to-code_10-10-10-18_a7e3",
+    "address": "10.10.10.18/30",
+    "host": "10.10.10.18",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "a111abcb-6bad-5f78-acc7-1f699565149a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/a111abcb-6bad-5f78-acc7-1f699565149a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:43.830732Z",
+    "last_updated": "2025-12-17T18:25:43.830750Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a7e39199-ebcc-5445-b155-912985e95aeb/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "160326f8-0310-5472-8890-904f9201f631",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.5/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/160326f8-0310-5472-8890-904f9201f631/",
+    "natural_slug": "network-to-code_10-10-11-5_1603",
+    "address": "10.10.11.5/30",
+    "host": "10.10.11.5",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-01-Gi5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "a8d8f63a-54b1-53a6-9fe3-2026d7f0c81c",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/a8d8f63a-54b1-53a6-9fe3-2026d7f0c81c/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:33.066471Z",
+    "last_updated": "2025-12-17T18:25:33.066486Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/160326f8-0310-5472-8890-904f9201f631/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9ac9d613-546c-564d-ab86-ec3055a5f9b0",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.6/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9ac9d613-546c-564d-ab86-ec3055a5f9b0/",
+    "natural_slug": "network-to-code_10-10-11-6_9ac9",
+    "address": "10.10.11.6/30",
+    "host": "10.10.11.6",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e906fd1e-331f-5451-b33e-0c1f39a9b2e6",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e906fd1e-331f-5451-b33e-0c1f39a9b2e6/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:38.583113Z",
+    "last_updated": "2025-12-17T18:25:38.583129Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9ac9d613-546c-564d-ab86-ec3055a5f9b0/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "4485a069-57a8-5001-9445-863a2a9af3f7",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.9/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4485a069-57a8-5001-9445-863a2a9af3f7/",
+    "natural_slug": "network-to-code_10-10-11-9_4485",
+    "address": "10.10.11.9/30",
+    "host": "10.10.11.9",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-rtr-02-Gi5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "7c1be00f-dbef-52b7-89ca-d3307cc6092a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/7c1be00f-dbef-52b7-89ca-d3307cc6092a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:34.303525Z",
+    "last_updated": "2025-12-17T18:25:34.303541Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4485a069-57a8-5001-9445-863a2a9af3f7/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "8788f10a-13d0-5323-8516-d325dcbd88b8",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.10/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/8788f10a-13d0-5323-8516-d325dcbd88b8/",
+    "natural_slug": "network-to-code_10-10-11-10_8788",
+    "address": "10.10.11.10/30",
+    "host": "10.10.11.10",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "6403535c-6809-52bd-a365-4ee1cc79b6a5",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/6403535c-6809-52bd-a365-4ee1cc79b6a5/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:43.357970Z",
+    "last_updated": "2025-12-17T18:25:43.357986Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/8788f10a-13d0-5323-8516-d325dcbd88b8/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "fee544ba-cfff-552b-b4ac-38b8eaa34519",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.13/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/fee544ba-cfff-552b-b4ac-38b8eaa34519/",
+    "natural_slug": "network-to-code_10-10-11-13_fee5",
+    "address": "10.10.11.13/30",
+    "host": "10.10.11.13",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_6.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "418130ed-8f01-5350-8a75-2c25f4254296",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/418130ed-8f01-5350-8a75-2c25f4254296/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:39.286795Z",
+    "last_updated": "2025-12-17T18:25:39.286813Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/fee544ba-cfff-552b-b4ac-38b8eaa34519/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "c1671b92-f9b2-5a3e-becb-f3b9f35b8cf8",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.14/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c1671b92-f9b2-5a3e-becb-f3b9f35b8cf8/",
+    "natural_slug": "network-to-code_10-10-11-14_c167",
+    "address": "10.10.11.14/30",
+    "host": "10.10.11.14",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-01-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "391738b9-27e0-58da-a558-afb107ffe112",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/391738b9-27e0-58da-a558-afb107ffe112/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:48.844204Z",
+    "last_updated": "2025-12-17T18:25:48.844221Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/c1671b92-f9b2-5a3e-becb-f3b9f35b8cf8/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "e08fa65d-09c1-5b86-90c9-b034a8457e90",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.17/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e08fa65d-09c1-5b86-90c9-b034a8457e90/",
+    "natural_slug": "network-to-code_10-10-11-17_e08f",
+    "address": "10.10.11.17/30",
+    "host": "10.10.11.17",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-01-Et1_7.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "d501cb7d-08ed-5895-83a3-bb8fbd4cf552",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/d501cb7d-08ed-5895-83a3-bb8fbd4cf552/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:39.426030Z",
+    "last_updated": "2025-12-17T18:25:39.426047Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e08fa65d-09c1-5b86-90c9-b034a8457e90/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "2da61418-8bd5-580b-b4a5-f0696bc16a2b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.18/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2da61418-8bd5-580b-b4a5-f0696bc16a2b/",
+    "natural_slug": "network-to-code_10-10-11-18_2da6",
+    "address": "10.10.11.18/30",
+    "host": "10.10.11.18",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-02-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e82796c7-f8f6-51d6-b23c-287181688ec3",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e82796c7-f8f6-51d6-b23c-287181688ec3/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:52.718021Z",
+    "last_updated": "2025-12-17T18:25:52.718036Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2da61418-8bd5-580b-b4a5-f0696bc16a2b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "b7df8b7c-5cf9-5ea8-803b-0fb5e5096aa9",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.21/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b7df8b7c-5cf9-5ea8-803b-0fb5e5096aa9/",
+    "natural_slug": "network-to-code_10-10-11-21_b7df",
+    "address": "10.10.11.21/30",
+    "host": "10.10.11.21",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_6.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "aadc4abb-404d-57de-9d40-a003a9da21e0",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/aadc4abb-404d-57de-9d40-a003a9da21e0/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:44.103059Z",
+    "last_updated": "2025-12-17T18:25:44.103077Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b7df8b7c-5cf9-5ea8-803b-0fb5e5096aa9/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "39bc7df5-837c-54be-b5fc-74dd96b95757",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.22/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/39bc7df5-837c-54be-b5fc-74dd96b95757/",
+    "natural_slug": "network-to-code_10-10-11-22_39bc",
+    "address": "10.10.11.22/30",
+    "host": "10.10.11.22",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-01-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "fb3b661c-c1c8-5a6e-b0e9-c17ee1dc8625",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/fb3b661c-c1c8-5a6e-b0e9-c17ee1dc8625/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:48.969987Z",
+    "last_updated": "2025-12-17T18:25:48.970003Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/39bc7df5-837c-54be-b5fc-74dd96b95757/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f8d51bf5-3ce7-5fc2-ba93-1b860a642e12",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.25/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f8d51bf5-3ce7-5fc2-ba93-1b860a642e12/",
+    "natural_slug": "network-to-code_10-10-11-25_f8d5",
+    "address": "10.10.11.25/30",
+    "host": "10.10.11.25",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-spine-02-Et1_7.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "732211e3-4f54-5867-9866-4291d4b5fa2d",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/732211e3-4f54-5867-9866-4291d4b5fa2d/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:44.229516Z",
+    "last_updated": "2025-12-17T18:25:44.229532Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f8d51bf5-3ce7-5fc2-ba93-1b860a642e12/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "5f92b9e2-252e-5af4-ae5b-c1d15fcd11f1",
+    "object_type": "ipam.ipaddress",
+    "display": "10.10.11.26/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/5f92b9e2-252e-5af4-ae5b-c1d15fcd11f1/",
+    "natural_slug": "network-to-code_10-10-11-26_5f92",
+    "address": "10.10.11.26/30",
+    "host": "10.10.11.26",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "jcy-leaf-02-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4ae3e0a7-d52b-566c-b883-54a8b986f009",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4ae3e0a7-d52b-566c-b883-54a8b986f009/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:52.841902Z",
+    "last_updated": "2025-12-17T18:25:52.841919Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/5f92b9e2-252e-5af4-ae5b-c1d15fcd11f1/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d961d796-3b93-5257-9f46-c37753b37b88",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.5/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d961d796-3b93-5257-9f46-c37753b37b88/",
+    "natural_slug": "network-to-code_10-11-11-5_d961",
+    "address": "10.11.11.5/30",
+    "host": "10.11.11.5",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-01-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e70b7db3-6460-5b07-ab38-7c36a5e399b2",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e70b7db3-6460-5b07-ab38-7c36a5e399b2/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:11.302764Z",
+    "last_updated": "2025-12-17T18:25:11.302781Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d961d796-3b93-5257-9f46-c37753b37b88/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "07d2f43e-5a91-5cfe-83f1-dc9d64deb889",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.6/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/07d2f43e-5a91-5cfe-83f1-dc9d64deb889/",
+    "natural_slug": "network-to-code_10-11-11-6_07d2",
+    "address": "10.11.11.6/30",
+    "host": "10.11.11.6",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-01-Et1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "dcd1e65a-63f3-588e-8b39-c065a6a1f95a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/dcd1e65a-63f3-588e-8b39-c065a6a1f95a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:15.738351Z",
+    "last_updated": "2025-12-17T18:25:15.738364Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/07d2f43e-5a91-5cfe-83f1-dc9d64deb889/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "b6b0a338-f399-5074-b7f7-dcd3fb2822e0",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.9/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b6b0a338-f399-5074-b7f7-dcd3fb2822e0/",
+    "natural_slug": "network-to-code_10-11-11-9_b6b0",
+    "address": "10.11.11.9/30",
+    "host": "10.11.11.9",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-rtr-02-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "b38b12f1-eda5-5729-9a9c-1d9aa95a92ea",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/b38b12f1-eda5-5729-9a9c-1d9aa95a92ea/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:13.082007Z",
+    "last_updated": "2025-12-17T18:25:13.082022Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b6b0a338-f399-5074-b7f7-dcd3fb2822e0/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "e1783dc2-72f8-5b42-b719-ebba9bf5d66b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.10/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e1783dc2-72f8-5b42-b719-ebba9bf5d66b/",
+    "natural_slug": "network-to-code_10-11-11-10_e178",
+    "address": "10.11.11.10/30",
+    "host": "10.11.11.10",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-02-Et1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "514a97d6-f27f-56d4-bb97-60623e4b85ea",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/514a97d6-f27f-56d4-bb97-60623e4b85ea/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:18.736406Z",
+    "last_updated": "2025-12-17T18:25:18.736421Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e1783dc2-72f8-5b42-b719-ebba9bf5d66b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d62ab8f1-c52f-5fb9-853b-338940926cb4",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.13/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d62ab8f1-c52f-5fb9-853b-338940926cb4/",
+    "natural_slug": "network-to-code_10-11-11-13_d62a",
+    "address": "10.11.11.13/30",
+    "host": "10.11.11.13",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-01-Et2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "709dfcb4-682c-52f1-97a4-eee05c9e4fa0",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/709dfcb4-682c-52f1-97a4-eee05c9e4fa0/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:15.857973Z",
+    "last_updated": "2025-12-17T18:25:15.857989Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d62ab8f1-c52f-5fb9-853b-338940926cb4/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "0b62bf37-dba8-5b17-9f5e-c006c3cd6f24",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.14/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/0b62bf37-dba8-5b17-9f5e-c006c3cd6f24/",
+    "natural_slug": "network-to-code_10-11-11-14_0b62",
+    "address": "10.11.11.14/30",
+    "host": "10.11.11.14",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-01-Et2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "960d62f6-9faf-5a5b-a83a-0017326d5c9b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/960d62f6-9faf-5a5b-a83a-0017326d5c9b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:21.042850Z",
+    "last_updated": "2025-12-17T18:25:21.042863Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/0b62bf37-dba8-5b17-9f5e-c006c3cd6f24/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "70b5d415-1439-5e39-b3a5-ad9da6e5d9ad",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.17/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/70b5d415-1439-5e39-b3a5-ad9da6e5d9ad/",
+    "natural_slug": "network-to-code_10-11-11-17_70b5",
+    "address": "10.11.11.17/30",
+    "host": "10.11.11.17",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-01-Et3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4a4d3ac9-7382-595c-b89a-b637e992ce03",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4a4d3ac9-7382-595c-b89a-b637e992ce03/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:15.984187Z",
+    "last_updated": "2025-12-17T18:25:15.984205Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/70b5d415-1439-5e39-b3a5-ad9da6e5d9ad/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "bea47a60-9575-57a6-9ba9-282cb04b70ef",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.18/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bea47a60-9575-57a6-9ba9-282cb04b70ef/",
+    "natural_slug": "network-to-code_10-11-11-18_bea4",
+    "address": "10.11.11.18/30",
+    "host": "10.11.11.18",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-02-Et2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "bca1eeb3-94e6-5480-84f4-b224b4ffeaae",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/bca1eeb3-94e6-5480-84f4-b224b4ffeaae/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:23.286312Z",
+    "last_updated": "2025-12-17T18:25:23.286324Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/bea47a60-9575-57a6-9ba9-282cb04b70ef/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "cbc0d3cd-ecfa-5dcf-8fee-446e91a4003c",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.21/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cbc0d3cd-ecfa-5dcf-8fee-446e91a4003c/",
+    "natural_slug": "network-to-code_10-11-11-21_cbc0",
+    "address": "10.11.11.21/30",
+    "host": "10.11.11.21",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-02-Et2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0761492e-c6b4-530b-a8ac-a14c20ececf3",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0761492e-c6b4-530b-a8ac-a14c20ececf3/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:18.832807Z",
+    "last_updated": "2025-12-17T18:25:18.832823Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cbc0d3cd-ecfa-5dcf-8fee-446e91a4003c/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "54e5f9b2-58f7-5486-aff2-a7f3222a371b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.22/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/54e5f9b2-58f7-5486-aff2-a7f3222a371b/",
+    "natural_slug": "network-to-code_10-11-11-22_54e5",
+    "address": "10.11.11.22/30",
+    "host": "10.11.11.22",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-01-Et3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "dc39b27f-53c0-5d03-944a-136783b82a95",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/dc39b27f-53c0-5d03-944a-136783b82a95/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:21.132497Z",
+    "last_updated": "2025-12-17T18:25:21.132510Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/54e5f9b2-58f7-5486-aff2-a7f3222a371b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "05b2e8a2-a1df-5774-a1ef-054434ba1e87",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.25/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/05b2e8a2-a1df-5774-a1ef-054434ba1e87/",
+    "natural_slug": "network-to-code_10-11-11-25_05b2",
+    "address": "10.11.11.25/30",
+    "host": "10.11.11.25",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-spine-02-Et3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "54b3ce84-b32f-590a-a850-c1986228c11c",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/54b3ce84-b32f-590a-a850-c1986228c11c/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:18.923295Z",
+    "last_updated": "2025-12-17T18:25:18.923308Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/05b2e8a2-a1df-5774-a1ef-054434ba1e87/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f21181fb-1bd0-5f56-95a2-9cbbd6ee1e7b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.11.11.26/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f21181fb-1bd0-5f56-95a2-9cbbd6ee1e7b/",
+    "natural_slug": "network-to-code_10-11-11-26_f211",
+    "address": "10.11.11.26/30",
+    "host": "10.11.11.26",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-leaf-02-Et3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "bcd87457-ff44-5d57-b4a1-81b94dd998c2",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/bcd87457-ff44-5d57-b4a1-81b94dd998c2/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:25:23.374612Z",
+    "last_updated": "2025-12-17T18:25:23.374625Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f21181fb-1bd0-5f56-95a2-9cbbd6ee1e7b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f31b565a-0318-50ce-9dc8-b369c4d3053b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.1/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f31b565a-0318-50ce-9dc8-b369c4d3053b/",
+    "natural_slug": "network-to-code_10-12-0-1_f31b",
+    "address": "10.12.0.1/30",
+    "host": "10.12.0.1",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-bb-01-ge-0_0_0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "7b832405-d4fc-5658-b070-c7043296dda0",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/7b832405-d4fc-5658-b070-c7043296dda0/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:01.923742Z",
+    "last_updated": "2025-12-17T18:26:01.923756Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f31b565a-0318-50ce-9dc8-b369c4d3053b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "21c415de-c543-5ef1-bbba-b651214ee941",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.2/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/21c415de-c543-5ef1-bbba-b651214ee941/",
+    "natural_slug": "network-to-code_10-12-0-2_21c4",
+    "address": "10.12.0.2/30",
+    "host": "10.12.0.2",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-01-ge-0_0_0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0a20d9df-c5f8-5da5-ad44-c2e2818de1f3",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0a20d9df-c5f8-5da5-ad44-c2e2818de1f3/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:03.204522Z",
+    "last_updated": "2025-12-17T18:26:03.204533Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/21c415de-c543-5ef1-bbba-b651214ee941/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "15a8ddee-0e37-5391-9fd1-27d30b765cd2",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.5/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/15a8ddee-0e37-5391-9fd1-27d30b765cd2/",
+    "natural_slug": "network-to-code_10-12-0-5_15a8",
+    "address": "10.12.0.5/30",
+    "host": "10.12.0.5",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-bb-01-ge-0_0_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0f91cd5b-1373-563b-9e24-5a4c832c030a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0f91cd5b-1373-563b-9e24-5a4c832c030a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:02.013366Z",
+    "last_updated": "2025-12-17T18:26:02.013378Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/15a8ddee-0e37-5391-9fd1-27d30b765cd2/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "cb2811c2-f303-56df-a64d-184b2354824f",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.6/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cb2811c2-f303-56df-a64d-184b2354824f/",
+    "natural_slug": "network-to-code_10-12-0-6_cb28",
+    "address": "10.12.0.6/30",
+    "host": "10.12.0.6",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-02-ge-0_0_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "1dfcdda1-1c4b-578f-ba45-bed56bf693d7",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/1dfcdda1-1c4b-578f-ba45-bed56bf693d7/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:04.439141Z",
+    "last_updated": "2025-12-17T18:26:04.439156Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cb2811c2-f303-56df-a64d-184b2354824f/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "578734e9-2809-580d-8368-175399e9170d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.9/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/578734e9-2809-580d-8368-175399e9170d/",
+    "natural_slug": "network-to-code_10-12-0-9_5787",
+    "address": "10.12.0.9/30",
+    "host": "10.12.0.9",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "nyc-bb-01-ge-0_0_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "fe434d4c-101d-5e34-9ab4-ad6f42ad8b8b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/fe434d4c-101d-5e34-9ab4-ad6f42ad8b8b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:23.276055Z",
+    "last_updated": "2025-12-17T18:26:23.276073Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/578734e9-2809-580d-8368-175399e9170d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "e7b7f625-4dd7-5b4a-9f2e-798365157924",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.10/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e7b7f625-4dd7-5b4a-9f2e-798365157924/",
+    "natural_slug": "network-to-code_10-12-0-10_e7b7",
+    "address": "10.12.0.10/30",
+    "host": "10.12.0.10",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-bb-01-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "1800700b-a7bf-5231-bbe0-6f918240f349",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/1800700b-a7bf-5231-bbe0-6f918240f349/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:02.101763Z",
+    "last_updated": "2025-12-17T18:26:02.101776Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/e7b7f625-4dd7-5b4a-9f2e-798365157924/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9a86eaca-1e73-58a0-bb8f-fb7fb45d6443",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.13/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9a86eaca-1e73-58a0-bb8f-fb7fb45d6443/",
+    "natural_slug": "network-to-code_10-12-0-13_9a86",
+    "address": "10.12.0.13/30",
+    "host": "10.12.0.13",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-01-ge-0_0_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "67d9d9a4-a460-5430-bc45-bf3ebaddd722",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/67d9d9a4-a460-5430-bc45-bf3ebaddd722/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:03.289654Z",
+    "last_updated": "2025-12-17T18:26:03.289664Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9a86eaca-1e73-58a0-bb8f-fb7fb45d6443/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f5e98cd4-04a9-5340-adc2-a44217d2f8b6",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.14/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f5e98cd4-04a9-5340-adc2-a44217d2f8b6/",
+    "natural_slug": "network-to-code_10-12-0-14_f5e9",
+    "address": "10.12.0.14/30",
+    "host": "10.12.0.14",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-02-ge-0_0_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e4acbc82-31ca-5a7e-a884-0108c78e31fd",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e4acbc82-31ca-5a7e-a884-0108c78e31fd/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:04.526142Z",
+    "last_updated": "2025-12-17T18:26:04.526152Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f5e98cd4-04a9-5340-adc2-a44217d2f8b6/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "97614f44-6fc8-5c40-b0ce-604487b5e50a",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.17/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/97614f44-6fc8-5c40-b0ce-604487b5e50a/",
+    "natural_slug": "network-to-code_10-12-0-17_9761",
+    "address": "10.12.0.17/30",
+    "host": "10.12.0.17",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-01-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "68d8b333-9915-560b-aa89-7d50d0cd3f75",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/68d8b333-9915-560b-aa89-7d50d0cd3f75/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:03.375194Z",
+    "last_updated": "2025-12-17T18:26:03.375207Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/97614f44-6fc8-5c40-b0ce-604487b5e50a/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "ae82f502-509a-55d8-93e9-fbbff89fc143",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.18/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ae82f502-509a-55d8-93e9-fbbff89fc143/",
+    "natural_slug": "network-to-code_10-12-0-18_ae82",
+    "address": "10.12.0.18/30",
+    "host": "10.12.0.18",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "19d68c88-11a8-5ff7-9929-650563ceda54",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/19d68c88-11a8-5ff7-9929-650563ceda54/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:07.860399Z",
+    "last_updated": "2025-12-17T18:26:07.860413Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ae82f502-509a-55d8-93e9-fbbff89fc143/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "b8ffd4b7-4bed-5f51-b9c0-d78207175ad5",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.21/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b8ffd4b7-4bed-5f51-b9c0-d78207175ad5/",
+    "natural_slug": "network-to-code_10-12-0-21_b8ff",
+    "address": "10.12.0.21/30",
+    "host": "10.12.0.21",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-02-ge-0_0_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "7d464a49-7cb4-58e1-bbe2-80fba50f7f9a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/7d464a49-7cb4-58e1-bbe2-80fba50f7f9a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:04.941200Z",
+    "last_updated": "2025-12-17T18:26:04.941212Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/b8ffd4b7-4bed-5f51-b9c0-d78207175ad5/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "15e28769-2178-5d90-a591-dae30e4e4dc9",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.22/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/15e28769-2178-5d90-a591-dae30e4e4dc9/",
+    "natural_slug": "network-to-code_10-12-0-22_15e2",
+    "address": "10.12.0.22/30",
+    "host": "10.12.0.22",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_5.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "cfe04150-d948-526e-9fd4-2b832a5bce11",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/cfe04150-d948-526e-9fd4-2b832a5bce11/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:12.591670Z",
+    "last_updated": "2025-12-17T18:26:12.591686Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/15e28769-2178-5d90-a591-dae30e4e4dc9/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "60349601-1fc1-54bd-b467-0623da0f4320",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.25/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/60349601-1fc1-54bd-b467-0623da0f4320/",
+    "natural_slug": "network-to-code_10-12-0-25_6034",
+    "address": "10.12.0.25/30",
+    "host": "10.12.0.25",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0f2ba677-6498-5b0c-ac25-69f983411f80",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0f2ba677-6498-5b0c-ac25-69f983411f80/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:07.983971Z",
+    "last_updated": "2025-12-17T18:26:07.983988Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/60349601-1fc1-54bd-b467-0623da0f4320/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "253ccd58-26b5-5b0e-9462-3dc7e6a3511e",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.26/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/253ccd58-26b5-5b0e-9462-3dc7e6a3511e/",
+    "natural_slug": "network-to-code_10-12-0-26_253c",
+    "address": "10.12.0.26/30",
+    "host": "10.12.0.26",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4d57f3a0-5f6d-5481-8714-22d423b6c121",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4d57f3a0-5f6d-5481-8714-22d423b6c121/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:12.712388Z",
+    "last_updated": "2025-12-17T18:26:12.712404Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/253ccd58-26b5-5b0e-9462-3dc7e6a3511e/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "cda096d1-fd4e-5ca4-8c93-b86d8f52f84d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.29/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cda096d1-fd4e-5ca4-8c93-b86d8f52f84d/",
+    "natural_slug": "network-to-code_10-12-0-29_cda0",
+    "address": "10.12.0.29/30",
+    "host": "10.12.0.29",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "5f713caf-04a1-536f-908b-b2dae3a40ebd",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/5f713caf-04a1-536f-908b-b2dae3a40ebd/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.108303Z",
+    "last_updated": "2025-12-17T18:26:08.108318Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/cda096d1-fd4e-5ca4-8c93-b86d8f52f84d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "52232e6e-3198-5e3d-9488-81a7b5714126",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.30/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/52232e6e-3198-5e3d-9488-81a7b5714126/",
+    "natural_slug": "network-to-code_10-12-0-30_5223",
+    "address": "10.12.0.30/30",
+    "host": "10.12.0.30",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "da65534b-b2d5-5523-b269-67b4e2005c6e",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/da65534b-b2d5-5523-b269-67b4e2005c6e/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:12.834280Z",
+    "last_updated": "2025-12-17T18:26:12.834296Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/52232e6e-3198-5e3d-9488-81a7b5714126/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "3a13d0bb-a696-551f-ae45-010576102d97",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.33/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3a13d0bb-a696-551f-ae45-010576102d97/",
+    "natural_slug": "network-to-code_10-12-0-33_3a13",
+    "address": "10.12.0.33/30",
+    "host": "10.12.0.33",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "d984d404-98dd-59fa-acb5-ada8b6f000e5",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/d984d404-98dd-59fa-acb5-ada8b6f000e5/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.229246Z",
+    "last_updated": "2025-12-17T18:26:08.229262Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/3a13d0bb-a696-551f-ae45-010576102d97/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "4d360c85-177f-590b-a091-efa9cd37b72d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.34/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4d360c85-177f-590b-a091-efa9cd37b72d/",
+    "natural_slug": "network-to-code_10-12-0-34_4d36",
+    "address": "10.12.0.34/30",
+    "host": "10.12.0.34",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_3.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "d4d9f90f-06da-5a45-b287-e05f4fc34c8b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/d4d9f90f-06da-5a45-b287-e05f4fc34c8b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:12.985021Z",
+    "last_updated": "2025-12-17T18:26:12.985039Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4d360c85-177f-590b-a091-efa9cd37b72d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f2fe61ce-a84d-5200-89ab-dd3c60d798b3",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.37/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f2fe61ce-a84d-5200-89ab-dd3c60d798b3/",
+    "natural_slug": "network-to-code_10-12-0-37_f2fe",
+    "address": "10.12.0.37/30",
+    "host": "10.12.0.37",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "793dce1b-00ca-5c2e-b665-07f8647e3554",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/793dce1b-00ca-5c2e-b665-07f8647e3554/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.347093Z",
+    "last_updated": "2025-12-17T18:26:08.347110Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f2fe61ce-a84d-5200-89ab-dd3c60d798b3/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "0497c2cf-570b-5d63-a97f-ba0881e58a8d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.38/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/0497c2cf-570b-5d63-a97f-ba0881e58a8d/",
+    "natural_slug": "network-to-code_10-12-0-38_0497",
+    "address": "10.12.0.38/30",
+    "host": "10.12.0.38",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_4.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "95c093db-4b31-599d-ab17-c7c06932120b",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/95c093db-4b31-599d-ab17-c7c06932120b/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:13.109304Z",
+    "last_updated": "2025-12-17T18:26:13.109321Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/0497c2cf-570b-5d63-a97f-ba0881e58a8d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d2aa455a-0e78-53cf-8526-867eed981a70",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.41/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d2aa455a-0e78-53cf-8526-867eed981a70/",
+    "natural_slug": "network-to-code_10-12-0-41_d2aa",
+    "address": "10.12.0.41/30",
+    "host": "10.12.0.41",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-01-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e513abdc-16ef-5a26-ae3f-b452e09a10b0",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e513abdc-16ef-5a26-ae3f-b452e09a10b0/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:16.896285Z",
+    "last_updated": "2025-12-17T18:26:16.896301Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/d2aa455a-0e78-53cf-8526-867eed981a70/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "54963926-d55a-5095-a987-a640f4acef42",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.42/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/54963926-d55a-5095-a987-a640f4acef42/",
+    "natural_slug": "network-to-code_10-12-0-42_5496",
+    "address": "10.12.0.42/30",
+    "host": "10.12.0.42",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_6.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4cb6382f-3d9b-5019-98b4-0d32e5d54232",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4cb6382f-3d9b-5019-98b4-0d32e5d54232/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.511996Z",
+    "last_updated": "2025-12-17T18:26:08.512012Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/54963926-d55a-5095-a987-a640f4acef42/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a2111b0b-d765-5db9-8ee5-6b786de5c0eb",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.45/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a2111b0b-d765-5db9-8ee5-6b786de5c0eb/",
+    "natural_slug": "network-to-code_10-12-0-45_a211",
+    "address": "10.12.0.45/30",
+    "host": "10.12.0.45",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-02-Et1_1.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "0f723ecd-466a-5ae6-80a9-1b0c6bc71c86",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/0f723ecd-466a-5ae6-80a9-1b0c6bc71c86/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:22.756301Z",
+    "last_updated": "2025-12-17T18:26:22.756318Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a2111b0b-d765-5db9-8ee5-6b786de5c0eb/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "87464067-7b70-59b4-b8cb-4f1f2d524778",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.46/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/87464067-7b70-59b4-b8cb-4f1f2d524778/",
+    "natural_slug": "network-to-code_10-12-0-46_8746",
+    "address": "10.12.0.46/30",
+    "host": "10.12.0.46",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Et1_7.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "3959e465-6654-5167-8737-ccaf5281f08a",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/3959e465-6654-5167-8737-ccaf5281f08a/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.627341Z",
+    "last_updated": "2025-12-17T18:26:08.627356Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/87464067-7b70-59b4-b8cb-4f1f2d524778/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "7f740750-b3c5-52da-8163-74e0686d5b68",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.49/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/7f740750-b3c5-52da-8163-74e0686d5b68/",
+    "natural_slug": "network-to-code_10-12-0-49_7f74",
+    "address": "10.12.0.49/30",
+    "host": "10.12.0.49",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-01-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "fdfe0fcb-afd8-57eb-9f04-e0d37a9a707e",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/fdfe0fcb-afd8-57eb-9f04-e0d37a9a707e/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:17.013895Z",
+    "last_updated": "2025-12-17T18:26:17.013910Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/7f740750-b3c5-52da-8163-74e0686d5b68/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "61216de0-e625-5cbf-9481-8af2dac96b4a",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.50/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/61216de0-e625-5cbf-9481-8af2dac96b4a/",
+    "natural_slug": "network-to-code_10-12-0-50_6121",
+    "address": "10.12.0.50/30",
+    "host": "10.12.0.50",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_6.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "44d1dba0-94fd-55dc-abad-6aa820ef4184",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/44d1dba0-94fd-55dc-abad-6aa820ef4184/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:13.231149Z",
+    "last_updated": "2025-12-17T18:26:13.231164Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/61216de0-e625-5cbf-9481-8af2dac96b4a/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "ebba010e-0739-51d8-b6a0-95b6b968c3d5",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.53/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ebba010e-0739-51d8-b6a0-95b6b968c3d5/",
+    "natural_slug": "network-to-code_10-12-0-53_ebba",
+    "address": "10.12.0.53/30",
+    "host": "10.12.0.53",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-02-Et1_2.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "9babfcac-9121-5ea0-967f-ae4911f6db40",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/9babfcac-9121-5ea0-967f-ae4911f6db40/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:22.882358Z",
+    "last_updated": "2025-12-17T18:26:22.882374Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ebba010e-0739-51d8-b6a0-95b6b968c3d5/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9c0f58ff-f39e-5ac5-bb7b-892327436b87",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.54/30",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9c0f58ff-f39e-5ac5-bb7b-892327436b87/",
+    "natural_slug": "network-to-code_10-12-0-54_9c0f",
+    "address": "10.12.0.54/30",
+    "host": "10.12.0.54",
+    "mask_length": 30,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Et1_7.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "92f4eede-3b5d-5b8f-8405-f7e0e13425f6",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/92f4eede-3b5d-5b8f-8405-f7e0e13425f6/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:13.348743Z",
+    "last_updated": "2025-12-17T18:26:13.348758Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9c0f58ff-f39e-5ac5-bb7b-892327436b87/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "80fe4453-4fd4-5f61-a766-5e2d3ae69ecd",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.249/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/80fe4453-4fd4-5f61-a766-5e2d3ae69ecd/",
+    "natural_slug": "network-to-code_10-12-0-249_80fe",
+    "address": "10.12.0.249/32",
+    "host": "10.12.0.249",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e5c04f96-5956-533e-9dde-6281c6ad6376",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e5c04f96-5956-533e-9dde-6281c6ad6376/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:23.006820Z",
+    "last_updated": "2025-12-17T18:26:23.006838Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/80fe4453-4fd4-5f61-a766-5e2d3ae69ecd/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "2fd52e50-522f-55ca-9422-c778ccb0427b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.250/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2fd52e50-522f-55ca-9422-c778ccb0427b/",
+    "natural_slug": "network-to-code_10-12-0-250_2fd5",
+    "address": "10.12.0.250/32",
+    "host": "10.12.0.250",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-leaf-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "2c2b8dcf-26c2-504f-94b7-ce0b390a284e",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/2c2b8dcf-26c2-504f-94b7-ce0b390a284e/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:17.124961Z",
+    "last_updated": "2025-12-17T18:26:17.124973Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2fd52e50-522f-55ca-9422-c778ccb0427b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f5f6d19b-b0e1-5f88-bee0-ae1bb61946f3",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.251/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f5f6d19b-b0e1-5f88-bee0-ae1bb61946f3/",
+    "natural_slug": "network-to-code_10-12-0-251_f5f6",
+    "address": "10.12.0.251/32",
+    "host": "10.12.0.251",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "e4306eb7-fc5a-5d9d-944e-b7c5588845a3",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/e4306eb7-fc5a-5d9d-944e-b7c5588845a3/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:13.468259Z",
+    "last_updated": "2025-12-17T18:26:13.468273Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f5f6d19b-b0e1-5f88-bee0-ae1bb61946f3/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "2cf1bfd6-9918-5967-8af7-47cc7e28a762",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.252/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2cf1bfd6-9918-5967-8af7-47cc7e28a762/",
+    "natural_slug": "network-to-code_10-12-0-252_2cf1",
+    "address": "10.12.0.252/32",
+    "host": "10.12.0.252",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-spine-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "a285837b-d505-51a5-957f-dfb5e072aad8",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/a285837b-d505-51a5-957f-dfb5e072aad8/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:08.747219Z",
+    "last_updated": "2025-12-17T18:26:08.747234Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2cf1bfd6-9918-5967-8af7-47cc7e28a762/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f825c628-213b-5c29-8863-ec987a1bfc2b",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.253/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f825c628-213b-5c29-8863-ec987a1bfc2b/",
+    "natural_slug": "network-to-code_10-12-0-253_f825",
+    "address": "10.12.0.253/32",
+    "host": "10.12.0.253",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-02-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "53242f55-e506-5c2a-8eed-1782d88ab4db",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/53242f55-e506-5c2a-8eed-1782d88ab4db/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:05.026825Z",
+    "last_updated": "2025-12-17T18:26:05.026836Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f825c628-213b-5c29-8863-ec987a1bfc2b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "9df50c46-cdea-5ceb-8850-13f2820e3f39",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.254/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9df50c46-cdea-5ceb-8850-13f2820e3f39/",
+    "natural_slug": "network-to-code_10-12-0-254_9df5",
+    "address": "10.12.0.254/32",
+    "host": "10.12.0.254",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-rtr-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "d6605531-64f6-5095-b932-4e3f768839a3",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/d6605531-64f6-5095-b932-4e3f768839a3/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:03.462324Z",
+    "last_updated": "2025-12-17T18:26:03.462335Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9df50c46-cdea-5ceb-8850-13f2820e3f39/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "ecf61749-f7a1-541a-8793-a50f110e020c",
+    "object_type": "ipam.ipaddress",
+    "display": "10.12.0.255/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ecf61749-f7a1-541a-8793-a50f110e020c/",
+    "natural_slug": "network-to-code_10-12-0-255_ecf6",
+    "address": "10.12.0.255/32",
+    "host": "10.12.0.255",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "wee-bb-01-Lo0.infra.ntc.com",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "091fe56f-3641-5d2e-a6ca-e9f415d85b0d",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/091fe56f-3641-5d2e-a6ca-e9f415d85b0d/"
+    },
+    "tenant": {
+      "id": "a83a6c11-b97a-5bad-b6c5-379fb9a91e81",
+      "object_type": "tenancy.tenant",
+      "url": "https://next.demo.nautobot.com/api/tenancy/tenants/a83a6c11-b97a-5bad-b6c5-379fb9a91e81/"
+    },
+    "nat_inside": null,
+    "created": "2025-12-17T18:26:02.203312Z",
+    "last_updated": "2025-12-17T18:26:02.203329Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ecf61749-f7a1-541a-8793-a50f110e020c/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "789c8491-9e86-5ea6-964a-a303b09fcf0d",
+    "object_type": "ipam.ipaddress",
+    "display": "10.31.0.100/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/789c8491-9e86-5ea6-964a-a303b09fcf0d/",
+    "natural_slug": "global_10-31-0-100_789c",
+    "address": "10.31.0.100/32",
+    "host": "10.31.0.100",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "76ccb2ac-96c3-588a-a450-b187132137fe",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/76ccb2ac-96c3-588a-a450-b187132137fe/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:24:43.097557Z",
+    "last_updated": "2025-12-17T18:24:43.097569Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/789c8491-9e86-5ea6-964a-a303b09fcf0d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "4112a0d9-a17f-5e85-b536-00121d0777b0",
+    "object_type": "ipam.ipaddress",
+    "display": "10.31.0.101/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4112a0d9-a17f-5e85-b536-00121d0777b0/",
+    "natural_slug": "global_10-31-0-101_4112",
+    "address": "10.31.0.101/32",
+    "host": "10.31.0.101",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "03886ecc-cf16-5145-855b-68323bb0fbaa",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/03886ecc-cf16-5145-855b-68323bb0fbaa/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:24:43.240344Z",
+    "last_updated": "2025-12-17T18:24:43.240357Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/4112a0d9-a17f-5e85-b536-00121d0777b0/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "1a31cbbf-f61c-5a13-b928-d7b31ebd736e",
+    "object_type": "ipam.ipaddress",
+    "display": "10.31.0.102/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1a31cbbf-f61c-5a13-b928-d7b31ebd736e/",
+    "natural_slug": "global_10-31-0-102_1a31",
+    "address": "10.31.0.102/32",
+    "host": "10.31.0.102",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "7e9d858b-f8b9-54db-9f3d-ac69d6415501",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/7e9d858b-f8b9-54db-9f3d-ac69d6415501/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:24:43.400941Z",
+    "last_updated": "2025-12-17T18:24:43.400958Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/1a31cbbf-f61c-5a13-b928-d7b31ebd736e/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "94d7d55c-b9cb-5749-9a0f-8572bea5cbee",
+    "object_type": "ipam.ipaddress",
+    "display": "192.168.1.100/32",
+    "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/94d7d55c-b9cb-5749-9a0f-8572bea5cbee/",
+    "natural_slug": "global_192-168-1-100_94d7",
+    "address": "192.168.1.100/32",
+    "host": "192.168.1.100",
+    "mask_length": 32,
+    "type": "host",
+    "ip_version": 4,
+    "dns_name": "",
+    "description": "",
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": null,
+    "parent": {
+      "id": "4e6c8bda-05c9-5970-9c4c-b054892bad81",
+      "object_type": "ipam.prefix",
+      "url": "https://next.demo.nautobot.com/api/ipam/prefixes/4e6c8bda-05c9-5970-9c4c-b054892bad81/"
+    },
+    "tenant": null,
+    "nat_inside": null,
+    "created": "2025-12-17T18:27:09.274673Z",
+    "last_updated": "2025-12-17T18:27:09.274689Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/94d7d55c-b9cb-5749-9a0f-8572bea5cbee/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  }
+]

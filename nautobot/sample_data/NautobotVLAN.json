@@ -1,0 +1,682 @@
+[
+  {
+    "id": "f765e65b-7bab-5994-9ea3-f9b68596d37f",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-01 (1551)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/f765e65b-7bab-5994-9ea3-f9b68596d37f/",
+    "natural_slug": "f765e65b-7bab-5994-9ea3-f9b68596d37f_f765",
+    "prefix_count": 1,
+    "vid": 1551,
+    "name": "DATA - nyc01-asw-01",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:27.766156Z",
+    "last_updated": "2025-12-17T17:23:27.766174Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/f765e65b-7bab-5994-9ea3-f9b68596d37f/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "7c4d5a29-d85a-59a4-8022-463b722181f8",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-01 (1651)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/7c4d5a29-d85a-59a4-8022-463b722181f8/",
+    "natural_slug": "7c4d5a29-d85a-59a4-8022-463b722181f8_7c4d",
+    "prefix_count": 1,
+    "vid": 1651,
+    "name": "VOICE - nyc01-asw-01",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:27.817213Z",
+    "last_updated": "2025-12-17T17:23:27.817231Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/7c4d5a29-d85a-59a4-8022-463b722181f8/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "44ef3e2f-2c6a-5003-a990-fb7e3427d201",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-02 (1552)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/44ef3e2f-2c6a-5003-a990-fb7e3427d201/",
+    "natural_slug": "44ef3e2f-2c6a-5003-a990-fb7e3427d201_44ef",
+    "prefix_count": 1,
+    "vid": 1552,
+    "name": "DATA - nyc01-asw-02",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:40.264142Z",
+    "last_updated": "2025-12-17T17:23:40.264161Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/44ef3e2f-2c6a-5003-a990-fb7e3427d201/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "7c117777-bab6-5848-966c-67a3821f1878",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-02 (1652)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/7c117777-bab6-5848-966c-67a3821f1878/",
+    "natural_slug": "7c117777-bab6-5848-966c-67a3821f1878_7c11",
+    "prefix_count": 1,
+    "vid": 1652,
+    "name": "VOICE - nyc01-asw-02",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:40.310133Z",
+    "last_updated": "2025-12-17T17:23:40.310150Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/7c117777-bab6-5848-966c-67a3821f1878/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a9aaf14b-2172-56f0-9903-08eb76ce2bd7",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-03 (1553)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/a9aaf14b-2172-56f0-9903-08eb76ce2bd7/",
+    "natural_slug": "a9aaf14b-2172-56f0-9903-08eb76ce2bd7_a9aa",
+    "prefix_count": 1,
+    "vid": 1553,
+    "name": "DATA - nyc01-asw-03",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:46.484891Z",
+    "last_updated": "2025-12-17T17:23:46.484908Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/a9aaf14b-2172-56f0-9903-08eb76ce2bd7/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "8248d57f-df75-57ff-b473-7569e38f2490",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-03 (1653)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/8248d57f-df75-57ff-b473-7569e38f2490/",
+    "natural_slug": "8248d57f-df75-57ff-b473-7569e38f2490_8248",
+    "prefix_count": 1,
+    "vid": 1653,
+    "name": "VOICE - nyc01-asw-03",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:46.531834Z",
+    "last_updated": "2025-12-17T17:23:46.531852Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/8248d57f-df75-57ff-b473-7569e38f2490/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f101743f-9e2e-59ec-bdae-478542f61231",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-04 (1554)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/f101743f-9e2e-59ec-bdae-478542f61231/",
+    "natural_slug": "f101743f-9e2e-59ec-bdae-478542f61231_f101",
+    "prefix_count": 1,
+    "vid": 1554,
+    "name": "DATA - nyc01-asw-04",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:52.535371Z",
+    "last_updated": "2025-12-17T17:23:52.535384Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/f101743f-9e2e-59ec-bdae-478542f61231/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "ac07692f-d89b-5ea7-98b2-6edf2eb47ccb",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-04 (1654)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/ac07692f-d89b-5ea7-98b2-6edf2eb47ccb/",
+    "natural_slug": "ac07692f-d89b-5ea7-98b2-6edf2eb47ccb_ac07",
+    "prefix_count": 1,
+    "vid": 1654,
+    "name": "VOICE - nyc01-asw-04",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:52.570431Z",
+    "last_updated": "2025-12-17T17:23:52.570443Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/ac07692f-d89b-5ea7-98b2-6edf2eb47ccb/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "614e9dcb-4a78-5207-90aa-126d588c192f",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-05 (1555)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/614e9dcb-4a78-5207-90aa-126d588c192f/",
+    "natural_slug": "614e9dcb-4a78-5207-90aa-126d588c192f_614e",
+    "prefix_count": 1,
+    "vid": 1555,
+    "name": "DATA - nyc01-asw-05",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:57.372316Z",
+    "last_updated": "2025-12-17T17:23:57.372333Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/614e9dcb-4a78-5207-90aa-126d588c192f/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f257cdd6-c07a-5bb8-8225-9f2c45cd14b4",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-05 (1655)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/f257cdd6-c07a-5bb8-8225-9f2c45cd14b4/",
+    "natural_slug": "f257cdd6-c07a-5bb8-8225-9f2c45cd14b4_f257",
+    "prefix_count": 1,
+    "vid": 1655,
+    "name": "VOICE - nyc01-asw-05",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:23:57.420559Z",
+    "last_updated": "2025-12-17T17:23:57.420576Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/f257cdd6-c07a-5bb8-8225-9f2c45cd14b4/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "1dcd23d9-da96-52d4-876c-fa068f3ce121",
+    "object_type": "ipam.vlan",
+    "display": "DATA - nyc01-asw-06 (1556)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/1dcd23d9-da96-52d4-876c-fa068f3ce121/",
+    "natural_slug": "1dcd23d9-da96-52d4-876c-fa068f3ce121_1dcd",
+    "prefix_count": 1,
+    "vid": 1556,
+    "name": "DATA - nyc01-asw-06",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:04.125515Z",
+    "last_updated": "2025-12-17T17:24:04.125532Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/1dcd23d9-da96-52d4-876c-fa068f3ce121/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "56178e8b-7a08-59cf-b32a-3c907a723208",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - nyc01-asw-06 (1656)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/56178e8b-7a08-59cf-b32a-3c907a723208/",
+    "natural_slug": "56178e8b-7a08-59cf-b32a-3c907a723208_5617",
+    "prefix_count": 1,
+    "vid": 1656,
+    "name": "VOICE - nyc01-asw-06",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "132a5e3f-55ff-5a98-ad24-b415a1f08729",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/132a5e3f-55ff-5a98-ad24-b415a1f08729/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:04.168498Z",
+    "last_updated": "2025-12-17T17:24:04.168513Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/56178e8b-7a08-59cf-b32a-3c907a723208/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "c46424fe-589b-509a-a689-d1aaf1b67f72",
+    "object_type": "ipam.vlan",
+    "display": "DATA - lon01-asw-01 (2541)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/c46424fe-589b-509a-a689-d1aaf1b67f72/",
+    "natural_slug": "c46424fe-589b-509a-a689-d1aaf1b67f72_c464",
+    "prefix_count": 1,
+    "vid": 2541,
+    "name": "DATA - lon01-asw-01",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:30.537317Z",
+    "last_updated": "2025-12-17T17:24:30.537333Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/c46424fe-589b-509a-a689-d1aaf1b67f72/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "adf78d6a-89d7-51b3-b6d9-908cae2842c5",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - lon01-asw-01 (2641)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/adf78d6a-89d7-51b3-b6d9-908cae2842c5/",
+    "natural_slug": "adf78d6a-89d7-51b3-b6d9-908cae2842c5_adf7",
+    "prefix_count": 1,
+    "vid": 2641,
+    "name": "VOICE - lon01-asw-01",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:30.583629Z",
+    "last_updated": "2025-12-17T17:24:30.583644Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/adf78d6a-89d7-51b3-b6d9-908cae2842c5/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "630f2772-ab2d-5be7-9212-7243e2245724",
+    "object_type": "ipam.vlan",
+    "display": "DATA - lon01-asw-02 (2542)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/630f2772-ab2d-5be7-9212-7243e2245724/",
+    "natural_slug": "630f2772-ab2d-5be7-9212-7243e2245724_630f",
+    "prefix_count": 1,
+    "vid": 2542,
+    "name": "DATA - lon01-asw-02",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:36.703207Z",
+    "last_updated": "2025-12-17T17:24:36.703224Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/630f2772-ab2d-5be7-9212-7243e2245724/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "373a2e48-b86b-566e-8506-b36b2b213dac",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - lon01-asw-02 (2642)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/373a2e48-b86b-566e-8506-b36b2b213dac/",
+    "natural_slug": "373a2e48-b86b-566e-8506-b36b2b213dac_373a",
+    "prefix_count": 1,
+    "vid": 2642,
+    "name": "VOICE - lon01-asw-02",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:36.745355Z",
+    "last_updated": "2025-12-17T17:24:36.745370Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/373a2e48-b86b-566e-8506-b36b2b213dac/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f999b174-9848-5ea8-b508-6ff52324ae55",
+    "object_type": "ipam.vlan",
+    "display": "DATA - lon01-asw-03 (2543)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/f999b174-9848-5ea8-b508-6ff52324ae55/",
+    "natural_slug": "f999b174-9848-5ea8-b508-6ff52324ae55_f999",
+    "prefix_count": 1,
+    "vid": 2543,
+    "name": "DATA - lon01-asw-03",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:41.704878Z",
+    "last_updated": "2025-12-17T17:24:41.704897Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/f999b174-9848-5ea8-b508-6ff52324ae55/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "803699b8-ddb6-5025-ac51-4ba85c69d8d6",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - lon01-asw-03 (2643)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/803699b8-ddb6-5025-ac51-4ba85c69d8d6/",
+    "natural_slug": "803699b8-ddb6-5025-ac51-4ba85c69d8d6_8036",
+    "prefix_count": 1,
+    "vid": 2643,
+    "name": "VOICE - lon01-asw-03",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:41.754693Z",
+    "last_updated": "2025-12-17T17:24:41.754736Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/803699b8-ddb6-5025-ac51-4ba85c69d8d6/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "f31cb189-37f3-5968-895c-408efb7062ad",
+    "object_type": "ipam.vlan",
+    "display": "DATA - lon01-asw-04 (2544)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/f31cb189-37f3-5968-895c-408efb7062ad/",
+    "natural_slug": "f31cb189-37f3-5968-895c-408efb7062ad_f31c",
+    "prefix_count": 1,
+    "vid": 2544,
+    "name": "DATA - lon01-asw-04",
+    "description": "Data services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:47.987239Z",
+    "last_updated": "2025-12-17T17:24:47.987254Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/f31cb189-37f3-5968-895c-408efb7062ad/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d2399274-d3aa-5bfe-81e2-ea35f061183d",
+    "object_type": "ipam.vlan",
+    "display": "VOICE - lon01-asw-04 (2644)",
+    "url": "https://next.demo.nautobot.com/api/ipam/vlans/d2399274-d3aa-5bfe-81e2-ea35f061183d/",
+    "natural_slug": "d2399274-d3aa-5bfe-81e2-ea35f061183d_d239",
+    "prefix_count": 1,
+    "vid": 2644,
+    "name": "VOICE - lon01-asw-04",
+    "description": "Voice services",
+    "vlan_group": {
+      "id": "cfdae2fa-3f2b-51ac-b2df-999f70892e5b",
+      "object_type": "ipam.vlangroup",
+      "url": "https://next.demo.nautobot.com/api/ipam/vlan-groups/cfdae2fa-3f2b-51ac-b2df-999f70892e5b/"
+    },
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "77d3c3df-f983-51c2-aa1f-6ee7ebe646e2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/77d3c3df-f983-51c2-aa1f-6ee7ebe646e2/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:24:48.048324Z",
+    "last_updated": "2025-12-17T17:24:48.048338Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/ipam/vlans/d2399274-d3aa-5bfe-81e2-ea35f061183d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  }
+]
