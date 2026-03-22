@@ -1,0 +1,52 @@
+[
+  {
+    "id": "41382da0-d164-59a5-907e-82f865df5e45",
+    "object_type": "virtualization.cluster",
+    "display": "aws-ec2-prod",
+    "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/",
+    "natural_slug": "aws-ec2-prod_4138",
+    "device_count": 0,
+    "virtualmachine_count": 6,
+    "name": "aws-ec2-prod",
+    "comments": "",
+    "cluster_type": {
+      "id": "9f075eba-78f6-50aa-9947-bf6212bc3194",
+      "object_type": "virtualization.clustertype",
+      "url": "https://next.demo.nautobot.com/api/virtualization/cluster-types/9f075eba-78f6-50aa-9947-bf6212bc3194/"
+    },
+    "cluster_group": null,
+    "tenant": null,
+    "location": null,
+    "created": "2025-12-17T18:24:42.964503Z",
+    "last_updated": "2025-12-17T18:24:42.964515Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "e4184965-381b-5593-bf97-8baaee957efd",
+    "object_type": "virtualization.cluster",
+    "display": "aws-ec2-test",
+    "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/",
+    "natural_slug": "aws-ec2-test_e418",
+    "device_count": 0,
+    "virtualmachine_count": 6,
+    "name": "aws-ec2-test",
+    "comments": "",
+    "cluster_type": {
+      "id": "9f075eba-78f6-50aa-9947-bf6212bc3194",
+      "object_type": "virtualization.clustertype",
+      "url": "https://next.demo.nautobot.com/api/virtualization/cluster-types/9f075eba-78f6-50aa-9947-bf6212bc3194/"
+    },
+    "cluster_group": null,
+    "tenant": null,
+    "location": null,
+    "created": "2025-12-17T18:24:42.983821Z",
+    "last_updated": "2025-12-17T18:24:42.983831Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  }
+]

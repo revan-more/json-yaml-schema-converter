@@ -1,0 +1,127 @@
+[
+  {
+    "id": "061b9c60-fe33-5517-a112-ac5f958a0176",
+    "object_type": "dcim.controllermanageddevicegroup",
+    "display": "AMER SDA Switches",
+    "url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/061b9c60-fe33-5517-a112-ac5f958a0176/",
+    "natural_slug": "amer-sda-switches_061b",
+    "capabilities": null,
+    "name": "AMER SDA Switches",
+    "description": "",
+    "weight": 1000,
+    "parent": null,
+    "controller": {
+      "id": "43e0c7a2-3939-5fcf-bc2f-c659f1c40d46",
+      "object_type": "dcim.controller",
+      "url": "https://next.demo.nautobot.com/api/dcim/devices/43e0c7a2-3939-5fcf-bc2f-c659f1c40d46/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:22:43.875626Z",
+    "last_updated": "2025-12-17T17:22:43.875642Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/061b9c60-fe33-5517-a112-ac5f958a0176/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "689db90a-f3ab-570a-aeef-7c5383c816ef",
+    "object_type": "dcim.controllermanageddevicegroup",
+    "display": "APAC SDA Switches",
+    "url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/689db90a-f3ab-570a-aeef-7c5383c816ef/",
+    "natural_slug": "apac-sda-switches_689d",
+    "capabilities": null,
+    "name": "APAC SDA Switches",
+    "description": "",
+    "weight": 1000,
+    "parent": null,
+    "controller": {
+      "id": "8e10e011-7d0f-500f-89f4-efc5134d635d",
+      "object_type": "dcim.controller",
+      "url": "https://next.demo.nautobot.com/api/dcim/devices/8e10e011-7d0f-500f-89f4-efc5134d635d/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:22:43.960112Z",
+    "last_updated": "2025-12-17T17:22:43.960128Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/689db90a-f3ab-570a-aeef-7c5383c816ef/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "eaafdd21-9b55-5ade-b108-c657b769a2fc",
+    "object_type": "dcim.controllermanageddevicegroup",
+    "display": "EMEA SDA Switches",
+    "url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/eaafdd21-9b55-5ade-b108-c657b769a2fc/",
+    "natural_slug": "emea-sda-switches_eaaf",
+    "capabilities": null,
+    "name": "EMEA SDA Switches",
+    "description": "",
+    "weight": 1000,
+    "parent": null,
+    "controller": {
+      "id": "9fc491bd-e2cc-535d-bcf9-6c1e05284448",
+      "object_type": "dcim.controller",
+      "url": "https://next.demo.nautobot.com/api/dcim/devices/9fc491bd-e2cc-535d-bcf9-6c1e05284448/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:22:44.023586Z",
+    "last_updated": "2025-12-17T17:22:44.023601Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/eaafdd21-9b55-5ade-b108-c657b769a2fc/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "c05678b6-0617-5843-a478-06ea648e5c34",
+    "object_type": "dcim.controllermanageddevicegroup",
+    "display": "cat01.acme.net Devices",
+    "url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/c05678b6-0617-5843-a478-06ea648e5c34/",
+    "natural_slug": "cat01-acme-net-devices_c056",
+    "capabilities": null,
+    "name": "cat01.acme.net Devices",
+    "description": "",
+    "weight": 1000,
+    "parent": null,
+    "controller": {
+      "id": "8a3cb2bd-8130-5dd8-b0cf-7aa2abe6ded7",
+      "object_type": "dcim.controller",
+      "url": "https://next.demo.nautobot.com/api/dcim/devices/8a3cb2bd-8130-5dd8-b0cf-7aa2abe6ded7/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:22:44.093995Z",
+    "last_updated": "2025-12-17T17:22:44.094011Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/c05678b6-0617-5843-a478-06ea648e5c34/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "eace4a4d-0b04-51c3-802f-c086a8df552e",
+    "object_type": "dcim.controllermanageddevicegroup",
+    "display": "Aruba Wireless Devices",
+    "url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/eace4a4d-0b04-51c3-802f-c086a8df552e/",
+    "natural_slug": "aruba-wireless-devices_eace",
+    "capabilities": [
+      {
+        "value": "wireless",
+        "label": "Wireless"
+      }
+    ],
+    "name": "Aruba Wireless Devices",
+    "description": "",
+    "weight": 1000,
+    "parent": null,
+    "controller": {
+      "id": "c1430f05-5899-5137-87b9-8d3b23a58c35",
+      "object_type": "dcim.controller",
+      "url": "https://next.demo.nautobot.com/api/dcim/devices/c1430f05-5899-5137-87b9-8d3b23a58c35/"
+    },
+    "tenant": null,
+    "created": "2025-12-17T17:22:44.161690Z",
+    "last_updated": "2025-12-17T17:22:44.161725Z",
+    "notes_url": "https://next.demo.nautobot.com/api/dcim/controller-managed-device-groups/eace4a4d-0b04-51c3-802f-c086a8df552e/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  }
+]

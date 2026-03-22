@@ -6,6 +6,7 @@ Command Line Interface for JSON to YAML Schema Converter
 import argparse
 import logging
 import sys
+from pathlib import Path
 
 from .converter import JSONToYAMLConverter
 
@@ -18,11 +19,29 @@ def main():
     parser = argparse.ArgumentParser(description="JSON to YAML Schema Converter")
     parser.add_argument(
         "--folder",
-        default="sample_data",
-        help="Folder containing JSON files (default: sample_data)",
+        required=True,
+        help="Path to the folder containing JSON files to convert (required)",
     )
 
     args = parser.parse_args()
+
+    # Validate the folder exists
+    folder_path = Path(args.folder)
+    if not folder_path.exists():
+        logger.error(f"❌ Folder not found: '{args.folder}'")
+        logger.error("   Please provide a valid path to a folder containing JSON files.")
+        return 1
+
+    if not folder_path.is_dir():
+        logger.error(f"❌ '{args.folder}' is not a directory.")
+        return 1
+
+    # Check that the folder contains JSON files
+    json_files = list(folder_path.glob("*.json"))
+    if not json_files:
+        logger.error(f"❌ No JSON files found in '{args.folder}'")
+        logger.error("   Make sure the folder contains .json files to convert.")
+        return 1
 
     # Initialize converter
     converter = JSONToYAMLConverter(args.folder)

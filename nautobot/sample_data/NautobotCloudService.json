@@ -1,0 +1,268 @@
+[
+  {
+    "id": "f7a9b2fe-6da4-5f81-b670-5f35c53d96df",
+    "object_type": "cloud.cloudservice",
+    "display": "GKS migration test",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/f7a9b2fe-6da4-5f81-b670-5f35c53d96df/",
+    "natural_slug": "gks-migration-test_f7a9",
+    "extra_config": {
+      "role": "worker",
+      "tags": ["env-prod"],
+      "team": "R&D",
+      "owner": "R&D Management"
+    },
+    "name": "GKS migration test",
+    "description": "AWS migration of CDN to GKS backend - test demo",
+    "cloud_resource_type": {
+      "id": "64097741-ac34-5d94-8ea3-fba6a724c858",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/64097741-ac34-5d94-8ea3-fba6a724c858/"
+    },
+    "cloud_account": {
+      "id": "359425e8-8495-5f67-89e4-6e1090453216",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/359425e8-8495-5f67-89e4-6e1090453216/"
+    },
+    "created": "2025-12-17T18:24:41.811392Z",
+    "last_updated": "2025-12-17T18:24:41.811404Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/f7a9b2fe-6da4-5f81-b670-5f35c53d96df/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "88f5b1d5-f51c-502f-8d10-b6a0a116be34",
+    "object_type": "cloud.cloudservice",
+    "display": "GKS test environment",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/88f5b1d5-f51c-502f-8d10-b6a0a116be34/",
+    "natural_slug": "gks-test-environment_88f5",
+    "extra_config": {
+      "role": "worker",
+      "tags": ["env-test"],
+      "team": "R&D",
+      "owner": "R&D Management"
+    },
+    "name": "GKS test environment",
+    "description": "GKS - learning and testing all new features",
+    "cloud_resource_type": {
+      "id": "64097741-ac34-5d94-8ea3-fba6a724c858",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/64097741-ac34-5d94-8ea3-fba6a724c858/"
+    },
+    "cloud_account": {
+      "id": "359425e8-8495-5f67-89e4-6e1090453216",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/359425e8-8495-5f67-89e4-6e1090453216/"
+    },
+    "created": "2025-12-17T18:24:41.843241Z",
+    "last_updated": "2025-12-17T18:24:41.843252Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/88f5b1d5-f51c-502f-8d10-b6a0a116be34/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "86757997-0a26-5964-8894-d5c72f3ef7c5",
+    "object_type": "cloud.cloudservice",
+    "display": "On-prem <> AWS CDN - Production Backup",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/86757997-0a26-5964-8894-d5c72f3ef7c5/",
+    "natural_slug": "on-prem-aws-cdn-production-backup_8675",
+    "extra_config": {
+      "role": "uplink",
+      "tags": ["env-prod"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v3",
+      "cost_center": "CC-1020"
+    },
+    "name": "On-prem <> AWS CDN - Production Backup",
+    "description": "Direct connect from on-prem to production CDN - backup link",
+    "cloud_resource_type": {
+      "id": "a52dcc10-cc47-5816-8134-f7b3422ece5a",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/a52dcc10-cc47-5816-8134-f7b3422ece5a/"
+    },
+    "cloud_account": {
+      "id": "89ebfe03-ae64-56ef-9a40-5f64d4b7da03",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/"
+    },
+    "created": "2025-12-17T18:24:41.647417Z",
+    "last_updated": "2025-12-17T18:24:41.647430Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/86757997-0a26-5964-8894-d5c72f3ef7c5/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "50ec629c-b0bb-5403-a06e-fe15c2bc10f6",
+    "object_type": "cloud.cloudservice",
+    "display": "On-prem <> AWS CDN - Production Primary",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/50ec629c-b0bb-5403-a06e-fe15c2bc10f6/",
+    "natural_slug": "on-prem-aws-cdn-production-primary_50ec",
+    "extra_config": {
+      "role": "uplink",
+      "tags": ["env-prod"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v3",
+      "cost_center": "CC-1020"
+    },
+    "name": "On-prem <> AWS CDN - Production Primary",
+    "description": "Direct connect from on-prem to production CDN",
+    "cloud_resource_type": {
+      "id": "a52dcc10-cc47-5816-8134-f7b3422ece5a",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/a52dcc10-cc47-5816-8134-f7b3422ece5a/"
+    },
+    "cloud_account": {
+      "id": "89ebfe03-ae64-56ef-9a40-5f64d4b7da03",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/"
+    },
+    "created": "2025-12-17T18:24:41.606680Z",
+    "last_updated": "2025-12-17T18:24:41.606692Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/50ec629c-b0bb-5403-a06e-fe15c2bc10f6/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "ee7c7a91-0a78-5824-aa99-9785841c8212",
+    "object_type": "cloud.cloudservice",
+    "display": "On-prem <> AWS CDN - Test",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/ee7c7a91-0a78-5824-aa99-9785841c8212/",
+    "natural_slug": "on-prem-aws-cdn-test_ee7c",
+    "extra_config": {
+      "role": "uplink",
+      "tags": ["env-test"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v4",
+      "cost_center": "CC-1020"
+    },
+    "name": "On-prem <> AWS CDN - Test",
+    "description": "Direct connect to our test cdn environment",
+    "cloud_resource_type": {
+      "id": "a52dcc10-cc47-5816-8134-f7b3422ece5a",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/a52dcc10-cc47-5816-8134-f7b3422ece5a/"
+    },
+    "cloud_account": {
+      "id": "ce51a726-b1b0-5983-8761-eaaca5492056",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/ce51a726-b1b0-5983-8761-eaaca5492056/"
+    },
+    "created": "2025-12-17T18:24:41.680749Z",
+    "last_updated": "2025-12-17T18:24:41.680761Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/ee7c7a91-0a78-5824-aa99-9785841c8212/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "fcfb7574-94a0-5d4e-b7ab-5426fbc58dea",
+    "object_type": "cloud.cloudservice",
+    "display": "Testing TGW",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/fcfb7574-94a0-5d4e-b7ab-5426fbc58dea/",
+    "natural_slug": "testing-tgw_fcfb",
+    "extra_config": {
+      "role": "intervpn",
+      "tags": ["env-test"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v3",
+      "cost_center": "CC-1020"
+    },
+    "name": "Testing TGW",
+    "description": "",
+    "cloud_resource_type": {
+      "id": "118851bb-ee1d-5e43-af44-280d8c29fa2f",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/118851bb-ee1d-5e43-af44-280d8c29fa2f/"
+    },
+    "cloud_account": {
+      "id": "ce51a726-b1b0-5983-8761-eaaca5492056",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/ce51a726-b1b0-5983-8761-eaaca5492056/"
+    },
+    "created": "2025-12-17T18:24:41.778898Z",
+    "last_updated": "2025-12-17T18:24:41.778910Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/fcfb7574-94a0-5d4e-b7ab-5426fbc58dea/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "6408a83e-9ca3-52da-b6f9-4353dacff521",
+    "object_type": "cloud.cloudservice",
+    "display": "TGW from main VPC to CDN-1 VPC",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/6408a83e-9ca3-52da-b6f9-4353dacff521/",
+    "natural_slug": "tgw-from-main-vpc-to-cdn-1-vpc_6408",
+    "extra_config": {
+      "role": "intervpn",
+      "tags": ["env-prod"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v3",
+      "cost_center": "CC-1020"
+    },
+    "name": "TGW from main VPC to CDN-1 VPC",
+    "description": "transit gateway to cdn-1",
+    "cloud_resource_type": {
+      "id": "118851bb-ee1d-5e43-af44-280d8c29fa2f",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/118851bb-ee1d-5e43-af44-280d8c29fa2f/"
+    },
+    "cloud_account": {
+      "id": "89ebfe03-ae64-56ef-9a40-5f64d4b7da03",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/"
+    },
+    "created": "2025-12-17T18:24:41.713389Z",
+    "last_updated": "2025-12-17T18:24:41.713400Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/6408a83e-9ca3-52da-b6f9-4353dacff521/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  },
+  {
+    "id": "ffbfbde9-05be-5886-9426-78ffdb8cea6e",
+    "object_type": "cloud.cloudservice",
+    "display": "TGW from main VPC to CDN-2 VPC",
+    "url": "https://next.demo.nautobot.com/api/cloud/cloud-services/ffbfbde9-05be-5886-9426-78ffdb8cea6e/",
+    "natural_slug": "tgw-from-main-vpc-to-cdn-2-vpc_ffbf",
+    "extra_config": {
+      "role": "intervpn",
+      "tags": ["env-prod"],
+      "team": "CDN",
+      "owner": "CDN Management",
+      "status": "active",
+      "project": "CDN v3",
+      "cost_center": "CC-1020"
+    },
+    "name": "TGW from main VPC to CDN-2 VPC",
+    "description": "transit gateway to cdn-2",
+    "cloud_resource_type": {
+      "id": "118851bb-ee1d-5e43-af44-280d8c29fa2f",
+      "object_type": "cloud.cloudresourcetype",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-resource-types/118851bb-ee1d-5e43-af44-280d8c29fa2f/"
+    },
+    "cloud_account": {
+      "id": "89ebfe03-ae64-56ef-9a40-5f64d4b7da03",
+      "object_type": "cloud.cloudaccount",
+      "url": "https://next.demo.nautobot.com/api/cloud/cloud-accounts/89ebfe03-ae64-56ef-9a40-5f64d4b7da03/"
+    },
+    "created": "2025-12-17T18:24:41.746012Z",
+    "last_updated": "2025-12-17T18:24:41.746024Z",
+    "notes_url": "https://next.demo.nautobot.com/api/cloud/cloud-services/ffbfbde9-05be-5886-9426-78ffdb8cea6e/notes/",
+    "custom_fields": {},
+    "computed_fields": {},
+    "tags": []
+  }
+]

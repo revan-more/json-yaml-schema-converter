@@ -1,0 +1,566 @@
+[
+  {
+    "id": "6de1b7d0-4e6f-5f9e-b158-e0f6ba81f21b",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-100",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/6de1b7d0-4e6f-5f9e-b158-e0f6ba81f21b/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-100_6de1",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-100",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "54963926-d55a-5095-a987-a640f4acef42",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/54963926-d55a-5095-a987-a640f4acef42/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.012908Z",
+    "last_updated": "2025-12-17T18:24:43.012919Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/6de1b7d0-4e6f-5f9e-b158-e0f6ba81f21b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "0c34131c-dc52-5e07-8b2a-a43623b74281",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-101",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/0c34131c-dc52-5e07-8b2a-a43623b74281/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-101_0c34",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-101",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "a2111b0b-d765-5db9-8ee5-6b786de5c0eb",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/a2111b0b-d765-5db9-8ee5-6b786de5c0eb/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.175057Z",
+    "last_updated": "2025-12-17T18:24:43.175069Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/0c34131c-dc52-5e07-8b2a-a43623b74281/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "8d51e3bf-bdc0-5b04-8fee-b52a187a2420",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-102",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/8d51e3bf-bdc0-5b04-8fee-b52a187a2420/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-102_8d51",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-102",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "87464067-7b70-59b4-b8cb-4f1f2d524778",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/87464067-7b70-59b4-b8cb-4f1f2d524778/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.314325Z",
+    "last_updated": "2025-12-17T18:24:43.314340Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/8d51e3bf-bdc0-5b04-8fee-b52a187a2420/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "83e78a27-f715-54af-bf12-d8e00a73217c",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-103",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/83e78a27-f715-54af-bf12-d8e00a73217c/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-103_83e7",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-103",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "7f740750-b3c5-52da-8163-74e0686d5b68",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/7f740750-b3c5-52da-8163-74e0686d5b68/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.473766Z",
+    "last_updated": "2025-12-17T18:24:43.473779Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/83e78a27-f715-54af-bf12-d8e00a73217c/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "5eaaa05f-93f1-5e78-a748-eac8d48c54ac",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-104",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/5eaaa05f-93f1-5e78-a748-eac8d48c54ac/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-104_5eaa",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-104",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "61216de0-e625-5cbf-9481-8af2dac96b4a",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/61216de0-e625-5cbf-9481-8af2dac96b4a/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.614695Z",
+    "last_updated": "2025-12-17T18:24:43.614736Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/5eaaa05f-93f1-5e78-a748-eac8d48c54ac/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "335f4897-906d-5825-89ca-cb0f70e42c9b",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-prod-web-105",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/335f4897-906d-5825-89ca-cb0f70e42c9b/",
+    "natural_slug": "aws-ec2-prod__ec2-prod-web-105_335f",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-prod-web-105",
+    "vcpus": 4,
+    "memory": 16384,
+    "disk": 100,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "41382da0-d164-59a5-907e-82f865df5e45",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/41382da0-d164-59a5-907e-82f865df5e45/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "ebba010e-0739-51d8-b6a0-95b6b968c3d5",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/ebba010e-0739-51d8-b6a0-95b6b968c3d5/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.762479Z",
+    "last_updated": "2025-12-17T18:24:43.762490Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/335f4897-906d-5825-89ca-cb0f70e42c9b/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "bfaeb5df-a690-5d6d-9564-dc5e16bc9980",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-100",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/bfaeb5df-a690-5d6d-9564-dc5e16bc9980/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-100_bfae",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-100",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "9c0f58ff-f39e-5ac5-bb7b-892327436b87",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/9c0f58ff-f39e-5ac5-bb7b-892327436b87/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:43.891591Z",
+    "last_updated": "2025-12-17T18:24:43.891602Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/bfaeb5df-a690-5d6d-9564-dc5e16bc9980/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "d355bb3a-b997-5ed7-8831-9aaa179eae0d",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-101",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/d355bb3a-b997-5ed7-8831-9aaa179eae0d/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-101_d355",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-101",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "80fe4453-4fd4-5f61-a766-5e2d3ae69ecd",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/80fe4453-4fd4-5f61-a766-5e2d3ae69ecd/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:44.020491Z",
+    "last_updated": "2025-12-17T18:24:44.020503Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/d355bb3a-b997-5ed7-8831-9aaa179eae0d/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "da6cf4ec-77a0-507d-b0b7-4fa6ba9d5058",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-102",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/da6cf4ec-77a0-507d-b0b7-4fa6ba9d5058/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-102_da6c",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-102",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "2fd52e50-522f-55ca-9422-c778ccb0427b",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2fd52e50-522f-55ca-9422-c778ccb0427b/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:44.150094Z",
+    "last_updated": "2025-12-17T18:24:44.150107Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/da6cf4ec-77a0-507d-b0b7-4fa6ba9d5058/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a9f18171-56ef-537b-a884-3e086947ba70",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-103",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/a9f18171-56ef-537b-a884-3e086947ba70/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-103_a9f1",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-103",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "f5f6d19b-b0e1-5f88-bee0-ae1bb61946f3",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f5f6d19b-b0e1-5f88-bee0-ae1bb61946f3/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:44.279734Z",
+    "last_updated": "2025-12-17T18:24:44.279746Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/a9f18171-56ef-537b-a884-3e086947ba70/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "a27434e4-416a-51f2-87c5-edaeaf169f89",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-104",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/a27434e4-416a-51f2-87c5-edaeaf169f89/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-104_a274",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-104",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "2cf1bfd6-9918-5967-8af7-47cc7e28a762",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/2cf1bfd6-9918-5967-8af7-47cc7e28a762/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:44.410285Z",
+    "last_updated": "2025-12-17T18:24:44.410296Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/a27434e4-416a-51f2-87c5-edaeaf169f89/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  },
+  {
+    "id": "551e9a94-141c-57c8-8d25-4adbbe7280d1",
+    "object_type": "virtualization.virtualmachine",
+    "display": "ec2-test-web-105",
+    "url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/551e9a94-141c-57c8-8d25-4adbbe7280d1/",
+    "natural_slug": "aws-ec2-test__ec2-test-web-105_551e",
+    "local_config_context_data": null,
+    "local_config_context_data_owner_object_id": null,
+    "name": "ec2-test-web-105",
+    "vcpus": 2,
+    "memory": 8192,
+    "disk": 25,
+    "comments": "",
+    "local_config_context_schema": null,
+    "local_config_context_data_owner_content_type": null,
+    "cluster": {
+      "id": "e4184965-381b-5593-bf97-8baaee957efd",
+      "object_type": "virtualization.cluster",
+      "url": "https://next.demo.nautobot.com/api/virtualization/clusters/e4184965-381b-5593-bf97-8baaee957efd/"
+    },
+    "tenant": null,
+    "platform": null,
+    "status": {
+      "id": "bf03f613-7663-5ed6-bee3-f05d588065cc",
+      "object_type": "extras.status",
+      "url": "https://next.demo.nautobot.com/api/extras/statuses/bf03f613-7663-5ed6-bee3-f05d588065cc/",
+      "name": "Active"
+    },
+    "role": {
+      "id": "c5d328cf-49da-5430-955b-6428ae9636f2",
+      "object_type": "extras.role",
+      "url": "https://next.demo.nautobot.com/api/extras/roles/c5d328cf-49da-5430-955b-6428ae9636f2/"
+    },
+    "primary_ip4": {
+      "id": "f825c628-213b-5c29-8863-ec987a1bfc2b",
+      "object_type": "ipam.ipaddress",
+      "url": "https://next.demo.nautobot.com/api/ipam/ip-addresses/f825c628-213b-5c29-8863-ec987a1bfc2b/"
+    },
+    "primary_ip6": null,
+    "software_version": null,
+    "created": "2025-12-17T18:24:44.575315Z",
+    "last_updated": "2025-12-17T18:24:44.575327Z",
+    "tags": [],
+    "notes_url": "https://next.demo.nautobot.com/api/virtualization/virtual-machines/551e9a94-141c-57c8-8d25-4adbbe7280d1/notes/",
+    "custom_fields": {},
+    "computed_fields": {}
+  }
+]

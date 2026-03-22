@@ -8,3 +8,8 @@ pycache/
 build/
 build/lib
 dist/*
+__pycache__
+mcp_test_env/*
+dist
+build
+.agents/*
